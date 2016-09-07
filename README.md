@@ -14,7 +14,8 @@ Each week students can earn up to 4 points across: deliverables, feedback/planni
 #### Deliverables
 - Each Week, students will create an issue with their tasks for the week based on discussion with the professor and TA.
 - Students will complete their DoDs by attaching links to deliverables in comments on the issue prior to the next feedback/planning session.
-- If students submit a **complete**, and **ontime** deliverable prior to the session start, they will get 1 point, otherwise, 0.
+- Students are expected to practice giving a presentation of their material in their group each week prior to the session. This will be self-reported later on, in the peer evaluation section.
+- If students submit a **complete**, and **ontime** set of deliverables prior to the session start and present them within the feedback/planning session, they will get 1 point, otherwise, 0.
 
 #### Feedback/planning sessions
 - Students are expected to attend all feedback/planning sessions.
@@ -32,6 +33,7 @@ Each week students can earn up to 4 points across: deliverables, feedback/planni
 
 #### Peer evaluations
 - Students will do peer evaluations through the google form (linked below) prior to each feedback/planning session, evaluating themselves and their groupmates for the previous weeks.
-- The evaluation will take the form of a PMF: each student will assign a floating point number to every group member, where the sum of all members contributions is 1.
+- Students will indicate which of their group members did attend the practice presentation session.
+- The peer evaluation will also take the form of a PMF: each student will assign a floating point number to every group member, where the sum of all members contributions is 1.
 - Individual grades will be weighted at the end of the term based on peer evaluation feedback, and to intervene throughout the semester if necessary.
 - Link to peer evaluation: 
