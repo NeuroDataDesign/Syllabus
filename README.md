@@ -3,7 +3,7 @@
 Taught by: **Joshua Vogelstein (@jovo, Prof) and Greg Kiar (@gkiar, TA)** <br/>
 Taught in: **Fall 2016 and Spring 2017** <br/>
 
-This course will provide 3 design-credits per semester, and will be a team-based year-long undertaking in data science and neuroscience. Students will be required to have some background in programming, statistics, and linear algebra, and should be willing to learn more. Each week, the course will take 3 hours. In the first 1.5 hours, students will meet with the professor and TA for a meeting in which each group will present their work of the previous week and establish goals for the next week. In the second, the TA will be leading an activity or presenting a demo which will go into detail on a specific task or tool that the students will be able to make use of in their projects.
+This course will provide 3 design-credits per semester, and will be a team-based year-long undertaking in data science and neuroscience. Students will be required to have some background in programming, statistics, and linear algebra, and should be willing to learn more. Each week, the course will take 3 hours. In the first 1.5 hours, students will meet with the professor and TA for a meeting in which each group will present their work of the previous week and establish goals for the next week. In the second, the TA will be leading an activity or presenting a demo which will go into detail on a specific task or tool that the students will be able to make use of in their projects. The goal of this year of work is to produce a tool that lowers the barrier to entry for or solves some previously unsolved computational neuroscience task. The software produced will be open-source under the Apache 2.0 licence, and must be reproducible (i.e. another can run it and recreate the findings documented/reported).
 
 ### Communication
 This class communicates largely in Slack. Please join our Slack channel at [http://spiralscience.slack.com/signup](http://spiralscience.slack.com/signup) to get involved.
@@ -32,8 +32,12 @@ Each week students can earn up to 4 points across: deliverables, feedback/planni
 - Grading is based on attendance showing up on time gives 1 point, with a 0.01 point deduction per minute late.
 
 #### Peer evaluations
-- Students will do peer evaluations through the google form (linked below) prior to each feedback/planning session, evaluating themselves and their groupmates for the previous weeks.
+- Students will do peer evaluations through the google form (linked below) prior to each feedback/planning session, evaluating themselves and their groupmates for the concluding week.
 - Students will indicate which of their group members did attend the practice presentation session.
 - The peer evaluation will also take the form of a PMF: each student will assign a floating point number to every group member, where the sum of all members contributions is 1.
 - Individual grades will be weighted at the end of the term based on peer evaluation feedback, and to intervene throughout the semester if necessary.
-- Link to peer evaluation: 
+- If the peer evaluation is completed prior to the start of the feedback/planning session (same time as the deliverables) the student is given 1 point, otherwise, 0.
+- Link to peer evaluation: https://goo.gl/forms/dLUS48mniPKhGcyj1
+
+#### End of Term Points
+At the end of each term, the teams will have an additional 3 points they can earn. One of the foremost goals of these projects is that the tools created are reproducible and accessible. Each group will have package their code and provide instructions for others to run it. The team will get points if the other groups (summing to 1 point), the TA (1 point), and the professor (1 point) are successful at reproducing the results documented. At the end of the year, this may be worth more.
