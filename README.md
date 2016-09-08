@@ -2,7 +2,7 @@
 **EN.580.437/EN.580.697** <br/>
 Taught by: **Joshua Vogelstein (@jovo, Prof) and Greg Kiar (@gkiar, TA)** <br/>
 Taught in: **Fall 2016 and Spring 2017** <br/>
-Time: **MW 17h00-18h60**
+Time: **MW 17h00-18h60** <br/>
 Location: **Olin 305**
 
 This course will provide 3 design-credits per semester, and will be a team-based year-long undertaking in data science and neuroscience. Students will be required to have some background in programming, statistics, and linear algebra, and should be willing to learn more. Each week, the course will take 3 hours. In the first 1.5 hours, students will meet with the professor and TA for a meeting in which each group will present their work of the previous week and establish goals for the next week. In the second, the TA will be leading an activity or presenting a demo which will go into detail on a specific task or tool that the students will be able to make use of in their projects. The goal of this year of work is to produce a tool that lowers the barrier to entry for or solves some previously unsolved computational neuroscience task. The software produced will be open-source under the Apache 2.0 licence, and must be reproducible (i.e. another can run it and recreate the findings documented/reported).
