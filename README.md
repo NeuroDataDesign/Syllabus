@@ -2,6 +2,8 @@
 **EN.580.437/EN.580.697** <br/>
 Taught by: **Joshua Vogelstein (@jovo, Prof) and Greg Kiar (@gkiar, TA)** <br/>
 Taught in: **Fall 2016 and Spring 2017** <br/>
+Time: **MW 17h00-18h60**
+Location: **Olin 305**
 
 This course will provide 3 design-credits per semester, and will be a team-based year-long undertaking in data science and neuroscience. Students will be required to have some background in programming, statistics, and linear algebra, and should be willing to learn more. Each week, the course will take 3 hours. In the first 1.5 hours, students will meet with the professor and TA for a meeting in which each group will present their work of the previous week and establish goals for the next week. In the second, the TA will be leading an activity or presenting a demo which will go into detail on a specific task or tool that the students will be able to make use of in their projects. The goal of this year of work is to produce a tool that lowers the barrier to entry for or solves some previously unsolved computational neuroscience task. The software produced will be open-source under the Apache 2.0 licence, and must be reproducible (i.e. another can run it and recreate the findings documented/reported).
 
@@ -9,7 +11,7 @@ This course will provide 3 design-credits per semester, and will be a team-based
 This class communicates largely in Slack. Please join our Slack channel at [http://spiralscience.slack.com/signup](http://spiralscience.slack.com/signup) to get involved.
 
 ### Grading
-Each week students can earn up to 4 points across: deliverables, feedback/planning sessions, lab/demo sessions, and peer evaluations.
+Each week students can earn up to 4 points across: deliverables, feedback/planning sessions, lab/demo sessions, and feedback.
 
 #### Deliverables
 - Each Week, students will create an issue with their tasks for the week based on discussion with the professor and TA.
@@ -31,11 +33,12 @@ Each week students can earn up to 4 points across: deliverables, feedback/planni
 - If there are things which students would like to learn about, they are welcome to submit these as requests to the TA and we will do our best to accommodate.
 - Grading is based on attendance showing up on time gives 1 point, with a 0.01 point deduction per minute late.
 
-#### Peer evaluations
+#### Feedback
 - Students will do peer evaluations through the google form (linked below) prior to each feedback/planning session, evaluating themselves and their groupmates for the concluding week.
 - Students will indicate which of their group members did attend the practice presentation session.
 - The peer evaluation will also take the form of a PMF: each student will assign a floating point number to every group member, where the sum of all members contributions is 1.
 - Individual grades will be weighted at the end of the term based on peer evaluation feedback, and to intervene throughout the semester if necessary.
+- Students will also identify properties of the class which gruntle or disgruntle them, so that the prof and TA may make adjustments.
 - If the peer evaluation is completed prior to the start of the feedback/planning session (same time as the deliverables) the student is given 1 point, otherwise, 0.
 - Link to peer evaluation: https://goo.gl/forms/dLUS48mniPKhGcyj1
 
