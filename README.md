@@ -10,6 +10,12 @@ This course will provide 3 design-credits per semester, and will be a team-based
 ### Communication
 This class communicates largely in Slack. Please join our Slack channel at [http://spiralscience.slack.com/signup](http://spiralscience.slack.com/signup) to get involved.
 
+### Office Hours
+The Wednesday sessions will function much like a lab (or office hours when we have no pressing topic to cover). If you wish to work with the TA, get help on something, etc. outside of these hours, send him a Google Calendar invite (if you don't have his gmail address ask him via Slack) with the following information:
+- Date + Time set
+- Title of event as "Meeting with <yourgroupname>"
+- Description of event enumerating all of the things you would like to cover within the meeting.
+
 ### Grading
 Each week students can earn up to 4 points across: deliverables, feedback/planning sessions, lab/demo sessions, and feedback.
 
@@ -59,3 +65,4 @@ At the end of each term, the teams will have an additional 3 points they can ear
 - (g1) Synthesize, summarize and explain technical content in a written report
 - (g2) Synthesize, summarize and explain technical content in an oral presentation
 - (k1) Gain proficiency in computer simulations and mathematical analysis tools
+
