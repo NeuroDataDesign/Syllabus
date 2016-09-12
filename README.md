@@ -13,7 +13,7 @@ This class communicates largely in Slack. Please join our Slack channel at [http
 ### Office Hours
 The Wednesday sessions will function much like a lab (or office hours when we have no pressing topic to cover). If you wish to work with the TA, get help on something, etc. outside of these hours, send him a Google Calendar invite (if you don't have his gmail address ask him via Slack) with the following information:
 - Date + Time set
-- Title of event as "Meeting with <yourgroupname>"
+- Title of event as "Meeting with \<yourgroupname\>"
 - Description of event enumerating all of the things you would like to cover within the meeting.
 
 ### Grading
