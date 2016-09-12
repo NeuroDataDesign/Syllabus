@@ -44,3 +44,18 @@ Each week students can earn up to 4 points across: deliverables, feedback/planni
 
 #### End of Term Points
 At the end of each term, the teams will have an additional 3 points they can earn. One of the foremost goals of these projects is that the tools created are reproducible and accessible. Each group will have package their code and provide instructions for others to run it. The team will get points if the other groups (summing to 1 point), the TA (1 point), and the professor (1 point) are successful at reproducing the results documented. At the end of the year, this may be worth more.
+
+
+### ABET Student Outcomes
+- (a1) Apply knowledge of advanced mathematics (calculus, differential equations, linear algebra, statistics) to problems at the interface of engineering, biology and medicine 
+- (a5) Mathematically model and simulate biological systems using computers 
+- (b1) Formulate hypothesis for experiments, including those on living systems
+- (b4) Display, describe, summarize and interpret experimental results in a lab report
+- (c1) Identify a desired need and define the biomedical engineering problem to be solved
+- (c2) Determine the constraints to the problem and assess the successful likelihood for  different approaches
+- (d1) Communicate opinions, viewpoints and expertise with other team members 
+- (d2) Understand team goals and assume and fulfill individual responsibilities within the team
+- (e3) Solve problem using experimental, mathematical and/or computational tools
+- (g1) Synthesize, summarize and explain technical content in a written report
+- (g2) Synthesize, summarize and explain technical content in an oral presentation
+- (k1) Gain proficiency in computer simulations and mathematical analysis tools
