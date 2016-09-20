@@ -17,7 +17,7 @@ The Wednesday sessions will function much like a lab (or office hours when we ha
 - Description of event enumerating all of the things you would like to cover within the meeting.
 
 ### Grading
-Each week students can earn up to 4 points across: deliverables, feedback/planning sessions, lab/demo sessions, and feedback.
+Each week students can earn up to 5 points across: deliverables, feedback/planning sessions, lab/demo sessions, feedback, and communication.
 
 #### Deliverables
 - Each Week, students will create an issue with their tasks for the week based on discussion with the professor and TA.
@@ -47,6 +47,14 @@ Each week students can earn up to 4 points across: deliverables, feedback/planni
 - Students will also identify properties of the class which gruntle or disgruntle them, so that the prof and TA may make adjustments.
 - If the peer evaluation is completed prior to the start of the feedback/planning session (same time as the deliverables) the student is given 1 point, otherwise, 0.
 - Link to peer evaluation: https://goo.gl/forms/dLUS48mniPKhGcyj1
+
+#### Communication
+- We will evaluate the students based on 4 facets of communication each week: asking for help, reporting, engaging with collaborators, and clarity.
+- We understand that all of these may not necessarily occur within a given week, and as such grades will be assigned subjectively based on performance in these areas.
+- Asking for help means reaching out to the teaching assistant and instructor when problems arise, and effectively problem solving.
+- Reporting includes documenting work of the previous week with a link for each promised deliverable in the initial issue.
+- Engaging with collaborators includes reporting results and requesting further information about the data responsibly and concisely.
+- Clarity is a measure of how well you communicate in these areas. Strong communication is important for both seeking help and reporting results. Full sentences, punctuation, providing context (i.e. not starting a question with 'so why doesn't this work?' but rather opening with your task, goal, and approach), etc.
 
 #### End of Term Points
 At the end of each term, the teams will have an additional 3 points they can earn. One of the foremost goals of these projects is that the tools created are reproducible and accessible. Each group will have package their code and provide instructions for others to run it. The team will get points if the other groups (summing to 1 point), the TA (1 point), and the professor (1 point) are successful at reproducing the results documented. At the end of the year, this may be worth more.
