@@ -10,3 +10,9 @@
 | W   | 11/9 | Greg     | Docker cont'd |
 | M   | 11/14| Jovo     | status update | 
 | W   | 11/16| Greg     | TBD |
+| M   | 11/21| Jovo     | status update | 
+| W   | 11/23| Greg     | TBD |
+| M   | 11/28| Jovo     | status update | 
+| W   | 11/30| Greg     | TBD |
+| M   | 12/5 | Jovo     | status update | 
+| W   | 12/7 | Greg     | TBD |
