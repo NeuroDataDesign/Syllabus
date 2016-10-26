@@ -10,8 +10,8 @@
 | W   | 11/9 | Jovo     | status update |
 | M   | 11/14| ??       | SfN | 
 | W   | 11/16| ??       | SfN |
-| M   | 11/21| Jovo     | status update | 
-| W   | 11/23| Greg     | TBD |
+| M   | 11/21| n/a      | thanksgiving | 
+| W   | 11/23| n/a      | thanksgiving |
 | M   | 11/28| Jovo     | status update | 
 | W   | 11/30| Greg     | TBD |
 | M   | 12/5 | Jovo     | status update | 
