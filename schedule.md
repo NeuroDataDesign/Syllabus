@@ -16,3 +16,4 @@
 | W   | 11/30| Greg     | TBD |
 | M   | 12/5 | Jovo     | status update | 
 | W   | 12/7 | Greg     | TBD |
+| F   | 12/9 | n/a      | final projects due |
