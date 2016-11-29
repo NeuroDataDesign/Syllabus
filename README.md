@@ -17,7 +17,7 @@ The Wednesday sessions will function much like a lab (or office hours when we ha
 - Description of event enumerating all of the things you would like to cover within the meeting.
 
 ### Grading
-Each week students can earn up to 5 points across: deliverables, feedback/planning sessions, lab/demo sessions, feedback, and communication.
+Each week students can earn up to 5 points across: deliverables, feedback/planning sessions, lab/demo sessions, feedback, and communication. Additionally, there will be a final project due on December 9th at 11:59pm.
 
 #### Deliverables
 - Each Week, students will create an issue with their tasks for the week based on discussion with the professor and TA.
@@ -56,8 +56,8 @@ Each week students can earn up to 5 points across: deliverables, feedback/planni
 - Engaging with collaborators includes reporting results and requesting further information about the data responsibly and concisely.
 - Clarity is a measure of how well you communicate in these areas. Strong communication is important for both seeking help and reporting results. Full sentences, punctuation, providing context (i.e. not starting a question with 'so why doesn't this work?' but rather opening with your task, goal, and approach), etc.
 
-#### End of Term Points
-At the end of each term, the teams will have an additional 3 points they can earn. One of the foremost goals of these projects is that the tools created are reproducible and accessible. Each group will have package their code and provide instructions for others to run it. The team will get points if the other groups (summing to 1 point), the TA (1 point), and the professor (1 point) are successful at reproducing the results documented. At the end of the year, this may be worth more.
+#### Final Project
+At the end of each term, the teams will have an additional 5 points they can earn. One of the foremost goals of these projects is that the tools created are reproducible and accessible. Each group will have package their code and provide instructions for others to run it. If the tool is a web service, this includes both running the server hosting the service, and using it through the web. The team will get points if the other groups (summing to 1 point), the TA (1 point), and the professor (1 point) are successful at reproducing the results documented. The final points will be awarded based upon completion of the remaining items in the [project checklist](finalproject.md).
 
 
 ### ABET Student Outcomes
