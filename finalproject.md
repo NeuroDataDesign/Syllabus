@@ -26,4 +26,7 @@ this is worth 1 point. If group members contributed significantly less to the fi
 
 ### The final point
 
-You need to test other teams work. Once you do, please fill out the [linked form](https://goo.gl/forms/8lDmfIpNy30vUUH82) for each team you test (i.e. you should fill this out twice if there are three teams total). If you do not complete both tests by 1 week after the deadline
+You need to test other teams work. Requires:
+ 1. please fill out the [linked form](https://goo.gl/forms/8lDmfIpNy30vUUH82) for each team you test (i.e. you should fill this out twice if there are three teams total).
+ 
+ If you do not complete all necessary tests by exactly 1 week after the deadline you will lose this point.
