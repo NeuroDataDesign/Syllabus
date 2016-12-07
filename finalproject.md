@@ -1,5 +1,7 @@
 ## Final Project
 
+Due: Friday December 9th, 11:59pm
+
 The end-of-term project will involve producing a tool that ones classmates, TA, and professor can run to perform some analysis, visualization, transformation, or other service, with no direct communication with the submitters. This project consists of a demonstration of the reproducible (and thus, documented) tool you've been developing, and a summary of group member contributions.
 
 The following are requirements for the end of term project:
@@ -24,4 +26,4 @@ this is worth 1 point. If group members contributed significantly less to the fi
 
 ### The final point
 
-It might be free, we might come up with something else to evaluate. Time will tell.
+You need to test other teams work. Once you do, please fill out the [linked form](https://goo.gl/forms/8lDmfIpNy30vUUH82) for each team you test (i.e. you should fill this out twice if there are three teams total). If you do not complete both tests by 1 week after the deadline
