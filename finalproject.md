@@ -8,7 +8,7 @@ The following are requirements for the end of term project:
 
 ### Reproducible tool
 
-There is a document (through documentation tools like roxygen, sphinx, or gh-pages and markdown, for example) which walks the user through the process of setting up and running their docker-contained tool with provided demo data. Requires:
+There is a document (through documentation tools like roxygen, sphinx, or gh-pages and markdown, for example) which walks the user through the process of setting up and running their docker-contained tool with provided demo data. A further description of this is described [here](./reproducibletool.md). Requires:
   1. docker container
   2. web-viewable docker container usage instructions
   3. (if applicable) web-viewable web service usage instructions
