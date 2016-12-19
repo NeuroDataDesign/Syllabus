@@ -13,11 +13,13 @@ In fact, thorough and clear documentation is often as important as the tool itse
   - setup instructions should be in the form of a *step-by-step* guide that are viewable within the web
   - instructions should live on a documentation page for the tool, (i.e. sphinx docs for a github project), within the code repo itself
   - instructions may be shared and available elsewhere (i.e. docker hub), but the external instructions are **not sufficient**
+  - instructions should be concise but sufficiently descriptive (i.e. descriptions are as short as possible, but no shorter)
   - if applicable, screenshots should be included in the instructions (i.e. if there are visual steps/interfaces involved)
 
 2. **its use/execution is thorougly documented** (i.e. [example part 1](https://github.com/NeuroDataDesign/orange-panda/blob/1351425c5eacbdd407ef50684dad57dbd95de4b3/README.md), [example part 2](http://54.88.116.242/#/flow))
   - demonstration data (taking < 10, preferably 3-5 min to process) provided and explained
-  - description of the commands/steps being run, how to run them, and why you're running them
+  - description of the commands/steps being run, how to run them, and why you're running them in a *step-by-step* form
+  - instructions should be concise but sufficiently descriptive (i.e. descriptions are as short as possible, but no shorter)
   - description of the time it takes to run each step
 
 3. **it contains descriptions of expected behaviour**
