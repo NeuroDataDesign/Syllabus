@@ -35,9 +35,10 @@ Each week students can earn up to 5 points across: deliverables, feedback/planni
 
 #### Lab/demo sessions
 - Students are expected to attend all lab/demo sessions.
+- Students are expected to complete their Thursday checkpoints/commitments by this session and present it to the TA.
 - These sessions will be largely TA led, and will go over tools and methods often used by students, and aim to help the students accomplish their deliverables.
 - If there are things which students would like to learn about, they are welcome to submit these as requests to the TA and we will do our best to accommodate.
-- Grading is based on attendance showing up on time gives 1 point, with a 0.01 point deduction per minute late.
+- Grading is based on attendance and completion of commitment. Each is worth 0.5 points, with a 0.01 point deduction per minute late.
 
 #### Feedback
 - Students will do peer evaluations through the google form (linked below) prior to each feedback/planning session, evaluating themselves and their groupmates for the concluding week.
