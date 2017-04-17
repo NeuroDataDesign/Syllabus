@@ -1,4 +1,4 @@
-## Final Project
+## End of Term Project
 
 Due: Friday December 9th, 11:59pm
 
