@@ -1,4 +1,4 @@
-The final project will consist of (i) a presentation given during finals week, and (ii) a demo during the presentation.  
+The final project will consist of (i) a presentation given during finals week (20 min per team, no questions during presentation), and (ii) a demo during the presentation.  
 
 
 The presentation will consist of the following slides
@@ -19,3 +19,9 @@ The presentation will consist of the following slides
 10. a screenshot showing the documentation, in particular, the spec to utilize your web-service
 11. a screenshot showing the output of your pipeline
 12. run the demo while people ask questions
+
+
+Some guidelines:
+
+1. treat this like @jovo is venture capital, so practice practice practice, in front of a mirror, and time it to make sure you get the timing right.
+2. dress up (whatever that means to you).
