@@ -10,7 +10,7 @@ The presentation will consist of the following slides
 5. result: how will practicing neuroscientists life change on the basis of your work? and which ones?
 6. pipeline slide showing the inputs and outputs of your pipeline, as well as a schematic detailing the 4-5 steps of your pipeline
 7. for each step of your pipeline, a slide that
-    1. states the inputs, outputs, and function of the slide
+    1. states the inputs, outputs, and function of the slide, and a link to documentation of this step
     1. shows the result of the output data
     1. provide compelling evidence (both qualitative and quantitative) that the result is useful / reasonable, and a link to the jupyter notebook to generate this result
     1. (if appropriate) provide compelling evidence on simulated data (both qualitative and quantitative), and a link to the jupyter notebook to generate this result
