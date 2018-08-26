@@ -67,8 +67,11 @@
 									<h2>About</h2>
 
 
-								    <p>In this year long course, students will work together in small teams to design, develop, and deploy a functioning tool (or  augment an existing one) for practicing brain scientists, either for accelerating research or supporting clinical practice. The first semester will focus on scoping the tool, including determining feasibility (for us in a year) and significance (for the targeted brain science community), as well as a statement of work specifying deliverables and milestones. Students will produce a Minimum Viable Product (<a href="https://en.wikipedia.org/wiki/Minimum_viable_product">MVP</a>). The second semester will focus on developing the tool, getting regular feedback, and iterating, using the <a href="https://realtimeboard.com/blog/choose-between-agile-lean-scrum-kanban/">agile/lean</a> development process.</p>
-
+								    <p>In this year long course, students will work together in small teams to either add functionality to an existing data science tool,
+											or use said tool to analyze some brain science data.
+											The first semester will focus on scoping, including determining feasibility (for us in a year) and significance (for the targeted brain/data science community),
+											as well as a statement of work specifying deliverables and milestones.
+											Throughout, we will be (approximately) using the <a href="https://realtimeboard.com/blog/choose-between-agile-lean-scrum-kanban/">agile/lean</a> development process.</p>
 
 
 																<p>This course is based on my experience as an academic, and entrepreneur, an advisor, and an instructor.  It is designed to be the best class you'll ever take.  You will  learn (by doing and getting feedback) the skills that I have found particularly useful in my endeavors. It will be organized into <a href="https://en.wikipedia.org/wiki/Scrum_(software_development)">sprints</a>, loosely based on Agile software development practices.  Weekly progress will be reported documenting goals towards your team sprints, with sprint demo's to happen at the close of each sprint.  Each team will be graded jointly on the basis of meeting the sprint goals, as well as providing clear and concise weekly progress reports.
@@ -100,19 +103,33 @@
 
 											Each team will extend and apply machine learning tools to tool to answer an important neurobiology question.  Potential neurobiology questions to answer include:
 											<ul>
-												<li>Characterize the anatomical, genetical, and physiological diversity of synapses
-												<li>Mitigate batch effects in human MRI derived connectomes
-												<li>Build models of connectomes, potentially incorporating joint and individual variation
+												<li>Characterize connectomic variability as a function of phenotypic/psychiatric variability.
+												<li>Mitigate batch effects in human MRI derived connectomes.
+												<li>Build models of connectomes, potentially incorporating joint and individual variation.
 											</ul>
 
-											We will extend/modify one of the following tools:
+											<h3>Tools</h3>
+											We will extend/modify one of the following tools, listed in approximate order of interest:
 											<ul>
 												<li><a href="https://github.com/neurodata/R-RerF">Random Projection Forest (RPF)</a> for nonparametric regression and classification.
 												<li><a href="https://github.com/neurodata/graphstats">Graph Statistics</a> statistical estimation and testing on graph-valued data.
 												<li><a href="https://github.com/neurodata/ndmg">NeuroData's MRI to Graphs (ndmg)</a> for analysis and statistcs of MRI derived connectomes.
-												<li><a href="https://github.com/neurodata/mgc">Multiscale Graph Correlation (MGC)</a> statistical testing for potentially high-dimensional and nonlinear relationships.
-												<li><a href="https://github.com/neurodata/ndreg">NeuroData's Registration (ndreg)</a> for nonlinear 3D image registration.	
+												<li><a href="https://github.com/neurodata/mgc">Multiscale Graph Correlation (MGC)</a> statistical testing.
+												<li><a href="https://github.com/neurodata/ndreg">NeuroData's Registration (ndreg)</a> for nonlinear 3D image registration.
+												<li><a href="https://github.com/neurodata/lol">Linear Optimal Low-rank (LOL) projections</a>.
+												<li><a href="https://github.com/neurodata/slb">Statistical Learning Benchmark (SLB)</a>.
 											</ul>
+
+											<h3>Data</h3>
+
+											To facilitate interest across teams, all teams will be applying their tools to the same dataset, specifically, the "Healthy Brain Network" data.
+											Some resources to learn about HBN include:
+											<ul>
+												<li><a href="https://healthybrainnetwork.org/">https://healthybrainnetwork.org/</a>.
+												<li><a href="http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/index.html">http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/index.html</a>.
+												<li><a href="https://www.nature.com/articles/sdata2017181">link to manuscript</a>.
+											</ul>
+
 
 
 										<h2>Recommended Background</h2>
@@ -140,6 +157,49 @@
 
 																	Our course is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of course participants in any form. Sexual language and imagery is not appropriate for any coourse content, including talks, slides, or presentations. Course participants violating these rules may be sanctioned or given a failing grade for the year.
 
+<br><br>
+
+																	<h3>Feedback from 2017</h3>
+
+																	NDD I <br>
+																	Taken from <a href="https://studentaffairs.jhu.edu/registrar/wp-content/uploads/sites/23/2018/03/Summary-of-Student-Course-Evaluations-SP18.pdf">student affairs</a>
+																	<br>
+																	Overall quality of the class: 4.63
+
+<br>
+Summary:
+The best aspects of this course included the professor's guidance and attentiveness, the opportunity to
+conduct independent research, and the ample resources provided. Negative feedback was limited.
+Suggestions for improvement included meeting more often and providing some guidance on team
+dynamics based on previous classes. Prospective students should have a background in advanced math
+and computer science.
+
+<br><br>
+
+NDD II<br>
+Taken from <a href="https://studentaffairs.jhu.edu/registrar/wp-content/uploads/sites/23/2017/11/Summary-of-Student-Comments-for-Spring-2017.pdf">student affairs</a>
+Overall quality of this course: 4.58
+
+<br>
+
+Summary:
+The best aspects of this course included the applicable course material, interesting project, and realworld
+knowledge gained. Some students felt that the material was challenging for those without math
+experience, and that some more complicated concepts had to essentially be self-taught. Additionally,
+grades were unknown and feedback was lacking. Suggestions for improvement included providing more
+transparent grades and frequent feedback, as well as better availability and communication from the
+instructors. Having more specific expectations from data providers, spending more time researching a
+topic, and advertising the course as something more CA-geared would also be beneficial. Prospective
+students should have some knowledge of programming, particularly Python, before enrolling.
+
+
+<h4>Class Updates on the Basis of Feedback</h4>
+
+We plan to meet with each team at least twice a week.
+Weekly grades will be provided.
+TA is available via slack for questions, and both instructor and TA are available MWF in person during/after class for questions.
+More lectures will be provided about effective team dynamics.
+
 
 </div>
 </section>
@@ -153,95 +213,131 @@
 
 																		<h3>Assignments</h3>
 
-																		There will be four main assignments due over the course of the year. In each case, the instructor will provide you with successful examples.
+																		There will be four main assignments due over the course of the year.
+																		In each case, the instructor will provide you with successful examples.
+																		The schedule of sprints will be:
 																		<ol>
-																			<li><bold>Sprint 0: August 30 - September 30th.</bold> In the first month of class you will scope a feasible and significant project for the year with your team members, consulting the instructor and reading background literature to establish a <bold>gap</gap> that you can fill.  The Statement of Work for this sprint will include:
+																				<li><bold>Sprint 0: August 30 - September 30th.</bold> Scope Sprint
+																				<li><bold>Sprint 1: October 1 - December 12.</bold> Code and/or Data Sprint
+																				<li><bold>Sprint 2: January 28 - March 15.</bold> Code and/or Data Sprint
+																				<li><bold>Sprint 3: March 25 - May 8.</bold> Code and/or Data Sprint
+																		</ol>
+
+																		All teams will participate in the scope sprint.
+																		For subsequent sprints, each team can choose whether to do either a code, data, or joint code and data sprint.
+																		The only constraint is that by the end of the year, each team must complete at least 1 full code sprint, and at least 1 full data sprint (a sprint that is both code/data counts as half of both).
+
+																			<h4>Scope Sprint</h4>
+																			In the first month of class you will scope a feasible and significant project for the year with your team members, consulting the instructor and reading background literature to establish a <bold>gap</gap> that you can fill.  The Statement of Work for this sprint will include:
 																				<ul>
 																				<li>A 2-page description of your project for the year,  so be submitted to AWS as a research grant to get AWS credits for the year for your project. See  <a href="https://aws.amazon.com/research-credits/">here</a> for details.
 																				<li>A statement of work listing the deliverables for each of the subsequent three sprints during the semester.  This statement of work will include a 1-paragraph description of the work per sprint, as well as a clear and concise enumerated list of milestones with appropriate performance metrics.  It will require a detailed graphical description (e.g., a figure) providing an example of both the qualitative and quantitative evaluation procedures that you will be using for the duration of the course.
 																				<li>A "pitch deck" to be presented to the class.
 																				<li>A feedback form to presented to the class that other members of the class will be required to fill out at the end of Sprint 2 and will partially determine your grade.
 																			</ul>
-																			<li><bold>Sprint 1: October 1 - December 12.</bold> In Sprint 1 you will build a minimal viable product (MVP).  This will take the form of a lightly documented code repository containing a tool that early adopters could adopt to solve their problems.  The deliverables will include:
+
+																			For each of the following sprints, there are two options: (1) merge in a "pull request" adding some functionality to one of the above listed repositories, or (2) analyze data using the above tools.
+																			So, the main goal for Sprint 0 is to plan out which of these two options you are choosing for each of the subsequent three sprints (combinations of the two are also welcome).
+
+
+<br><br>
+																			<h4>Code Sprint</h4>
+
+																			A code sprint deliverable is a succesfully merged <a href="https://yangsu.github.io/pull-request-tutorial/">pull request</a> into one of the above code repositories.
+																				That PR will comply with the packages "contribution guidelines".  It will also require coordinating with the maintainer of the package.
+																				My recommendation is that you make your PR about 2 weeks prior to the end of the sprint, to give the maintainer sufficient time to evaluate the PR, and possibly iterate with you (which is the norm, even amongst professionals).
+																				The PR should of course include suitable documentation and a tutorial for all additional functionality (either as a vignette or Jupyter notebook).
+																				At the conclusion of the sprint, the team will therefore deliver:
 																				<ul>
-																					<li>A "nature compliant" github repo containing everything required by Nature (see <a href="nature_checklist.png">here</a> for details, or <a href="https://github.com/neurodata/lol">here</a> for an example).
-																					<li>A website for the tool, at a minimum, containing links to (1) code, (2) docs, (3) slides, (4) report, and (5) demo notebooks/vignettes.
-																					<li>A presentation during our final (as scheduled by registrar) presenting the motivation, challenge, action, and result of your work. This presentation will document the degree to which you have achieved all the goals established for Sprint 1 during Sprint 0. It will also include publication quality figures, both qualitative and quantitative ones.
+																					<li>A github commit message indicating a successful PR into an "integration" branch, with a detailed change log
+																					<li>Demo notebooks/vignettes for each additional function including publication quality figures, both qualitative and quantitative ones.
+																					<li>A 20-minute presentation presenting the motivation, challenge, action, and result of your work. This presentation will document the degree to which you have achieved all the goals established for this sprint.
 																					<li>A live demo during the final showcasing the primary functionality of the tool.
-																					<li>A 4 page report that could be submitted to a conference or workshop detailing progress.
-																					<li>A revised feedback form.
-																					<li>A completed feedback report from each individual for one other team of your choosing.
+																					<li>A 4 page report that could be submitted to a conference or workshop describing the repository.
+																					<li>A completed feedback report.
+																					<li>If it is the 2nd and/or 3rd code sprint, it must also include an update to either CRAN or PyPi (note that this often takes multiple weeks, so again I recommend you try weeks in advance).
 																					</ul>
-																			<li><bold>Sprint 2: January 28 - March 15.</bold> In Sprint 2 you will update your MVP to approach the final goals of the year in terms of functionality, performance, and usability.   The deliverables will include:
-																				<ul>
-																					<li>Comprehensive user documentation and testing.
-																					<li>A presentation (up to an hour, including questions) on the week of Mar 10 to the class, during which you will report on your progress, presenting your documentation, testing, and qualitative and quantitative figures demonstrating the improvements over the course of the semester.
-																					<li>A live demo during your presentation demonstrating the improvements you've made during Sprint 2.
-																					<li>A document detailing that you have satisfactorily addressed all feedback.
-																					<li>A completed feedback report from each individual for a different team of your choosing.
-																				</ul>
 
-																				<li><bold>Sprint 3: March 25 - May 8.</bold> In Sprint 3 you will finalize your product in preparation for its official release. This will include the following:
+																			<h4>Data Sprint</h4>
+
+																			A data sprint deliverable is a "conference publication" style report documenting an analysis on a given data, with publication quality figures.
+																			The first data sprint will result in a short 4 page report, with ~10 references, the 2nd one will result in an 8-page report.
+																			All reports must have publication quality figures.
+																			All figures must be fully reproducible (end-to-end, starting with the same raw data that you started with) using Jupyter notebooks or the like.
+																			Grades will consider whether we are able to reproduce your analysis.
+																			At the conclusion of the sprint, the team will therefore deliver:
 																					<ul>
-																						<li>The tool will be on an appropriate package manager (e.g., CRAN, PyPi, etc.), if appropriate
-																						<li>A pull request of yours to incorporate your addition to the master branch of a community project will be merged (or we will decide that the reason the master did not merge was not interesting, and we will "publish" our fork).
-																						<li>A final presentation to potentially interested parties including neurobiologists from around JHU and potentially other places, including a sustainability plan.
-																						<li>A live demo during your presentation demonstrating the final product.
-																						<li>Update all website contents.
-																						<li>A document detailing that you have satisfactorily addressed all feedback.
-																						<li>An 8 page report that could be submitted to a conference or workshop detailing your product.
+																						<li>A conference report with publication quality figures
+																						<li>A notebook to reproduce each of the quantitative results from the report
+																						<li>A 20-minute presentation presenting the motivation, challenge, action, and result of your work. This presentation will document the degree to which you have achieved all the goals established for this sprint.
+																						<li>A live demo during your analysis.
+																						<li>A completed feedback report.
+																						<li>If it is the 2nd and/or 3rd data sprint, data derivatives must also be deposited in an open access repository.
 																					</ul>
 
-																		</ol>
 
 
 																		<h3>Credits</h3>
 
 
 
-																		<p>This course will provide 4 design-credits per semester, and will be a team-based year-long undertaking in data science and neuroscience. The 2xx level does not require extensive numerical programming, and is designed for underclass persons to learn about the design process by contributing in a variety of ways to the teams progress, and includes written assignments.  The 4xx level is designed for upperclass persons, counts for 4-credits of design per semester in BME.  Each team will have a team captain who is required to take the 6xx level, and will have additional requirements. Students in the 4xx level and above will be expected to have some background in programming, statistics, and linear algebra, and should be willing to learn more. The goal of this year of work is to produce a tool that lowers the barrier to entry for or solves some previously unsolved computational neuroscience task. The software produced will be open-source under the Apache 2.0 licence, and must be reproducible (i.e. another can run it and recreate the findings documented/reported).
+																		<p>This course will provide 4 design-credits per semester, and will be a team-based year-long undertaking in data science and neuroscience.
+																			The 2xx level does not require extensive numerical programming, and is designed for underclass persons to learn about the design process by contributing in a variety of ways to the teams progress, and includes written assignments.
+																			The 4xx level is designed for upperclass persons, counts for 4-credits of design per semester in BME.
+																			Each team will have a team captain who is required to take the 6xx level, and will have additional requirements.
+																			Other graduate students can also take the 6xx level.
+																			Students in the 4xx level and above will be expected to have some background in programming, statistics, and linear algebra, and should be willing to learn more.
+																			The software produced will be open-source under the Apache 2.0 licence, and must be reproducible (i.e. another can run it and recreate the findings documented/reported).
 																		</p>
 
 
 																		<h3>Weekly Class Organization</h3>
 
-																		This is subject to change, pending the feedback from the course participants. The current plan is as follows: Mondays, Wednesdays, and Fridays will all follow the same basic structure:
+																		This is subject to change, pending the feedback from the course participants.
+																		There will be four teams, each with 4-6 team members (including a caption).
+																		The current plan is as follows:
+																		Mondays and Wednesdays will follow the same basic structure:
 																		<ul>
-																			<li>Minutes 1-15 of class jovo will provide a short lecture/tutorial on a topic of mutual interest.
-																			<li>Minutes 15-45  Team A will make a formal presentation to the class, tactfully accepting constructive criticism and feedback..
-																			<li>Minutes 45-75 Team B informally reports on mid-week progress to jovo, with actual code/figures/deliverables in place.
+																			<li>Minutes 1-15: jovo will provide a short lecture/tutorial on a topic of mutual interest.
+																			<li>Minutes 15-40: Team A will make a formal presentation to the class, tactfully accepting constructive criticism and feedback.
+																			<li>Minutes 40-50: 10 minute bio break.
+																			<li>Minutes 50-75: Team B will make a formal presentation to the class, tactfully accepting constructive criticism and feedback.
 																		</ul>
 
-																		The weekly schedule will be: Monday: Team 1=A and 2=B,  Wednesdays: Team 2=A and 3=B, Fridays: Team 3=A and 1=B.
+																		The weekly schedule will be, for fall semester:
+																		Monday: 		Team 1 and 2,
+																		Wednesdays: Team 3 and 4.
+																		For spring semester:
+																		Monday: 		Team 3 and 4,
+																		Wednesdays: Team 1 and 2.
 
-																		The above schedule means that each team presents informally 5 days after committing to a plan, and formally 7  days after.
 
-																		The formal presentations will take the following form: students from the group will present google slides. Each team member will have about 3+ slides detailing the following:
+
+																		<br><br>
+																		The formal presentations will take the following form: students from the group will present google slides.
+																		Each team member will have about 3+ slides detailing the following:
                                     <ol>
 																				<li>1 slide: The sprint and weekly goals, each color coded to denote the degree of completion.
                                         <li>1 slide per task: data (limited to: figures, tables, demos, or webpages) that the deliverable attempted was completed successfully, with links. Note that the content on the slide should include incontrovertible evidence of talk completion, i.e., stating "i did it" and/or linking to code that you claim does the job is insufficient.</li>
                                         <li>1 slide: The deliverables the student will attempt the following week.</li>
                                     </ol>
 
-                                    <p>Students are expected to practice presenting as a group prior to Session 1 each week. See these <a href="https://docs.google.com/presentation/d/1UrrILP06medc4dXGiW0ctTGVN5w0y1x0x5VrXrSh22c/edit?usp=sharing">example slides</a>. </p>
+                                    <p>Students are expected to practice presenting as a group each week. See these <a href="https://docs.google.com/presentation/d/1UrrILP06medc4dXGiW0ctTGVN5w0y1x0x5VrXrSh22c/edit?usp=sharing">example slides</a>. </p>
 
+																		After the presentations, jovo + TA will provide feedback with regard to plan, and the existing presentation, and what must be fixed by friday.
 
-
-																		The informal presentations will take the following form: each student from the group will present google slides with the following:
-																		<ol>
-                                        <li>1 slide per task: data (limited to: figures, tables, demos, or webpages) that the deliverable attempted was completed successfully, or will be by next class, with links. Note that the content on the slide should include incontrovertible evidence of talk completion, i.e., stating "i did it" and/or linking to code that you claim does the job is insufficient.</li>
-                                        <li>1 slide: The planned deliverables for the following week.</li>
-                                    </ol>
-
-																		During the informal presentation, jovo will provide detailed feedback on how to improve the results or plans.
-
+																		<br><br>
+																		Fridays each team will have 20 minutes to present updated slides and revised/updated plan for the following week.
+																		This meeting is essentially geared to address any potential communication/presentation, for example, if a figure was not yet presentation quality,
+																		or a completed analysis was severely problematic for some reason.
 
                                     <p></p>
 
 
                                     <h3>Communication</h3>
-                                    <p>This class communicates largely in Slack. Please join our Slack channel at <a href="http://spiralscience.slack.com/signup">spiralscience</a> to get involved. Regular updates are provided in Slack, and the instructors will assume you have recieved them.</p>
-                                    <h3>External Help</h3>
+                                    <p>This class communicates largely in Slack. Please join our Slack channel at <a href="http://spiralscience.slack.com/signup">spiralscience</a> to get involved. Regular updates are provided in Slack, and the instructors will assume you have recieved them. TA will answer questions from slack approximately within 48 hours.</p>
+
+																		<h3>External Help</h3>
                                     <p>Jovo and TA are typically available after class to provide feedback/guidance as requested.
 
                                     <h3>Contributing</h3>
@@ -259,8 +355,8 @@
                                     <h3>Grading</h3>
                                     <h4>Weekly</h4>
 
-                                    <p>Each week students will be graded on the degree of completion of their deliverables, including both a qualitative and quantitative result.
-																			After your presentations, jovo will provide detailed feedback on your slides, with instructions on how to improve them.
+                                    <p>Each week students will be graded on the degree of completion of their deliverables, typically including both a qualitative and quantitative result.
+																			After your presentations, instructors will provide detailed feedback on your slides, with instructions on how to improve them.
 																			At the team specific meeting later in the week, the expectation will be that you have updated your slides entirely on the basis of this feedback.
 					    											Grades will be provided on the basis of your ability to complete the tasks you set out to perform, and update slides on the basis of other's input.  </p>
 
