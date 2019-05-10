@@ -5,693 +5,882 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Neuro Data Design</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body>
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Neurodata <br>Team I & II</a></h1>
-					<p>at the intersection of Neurobiology,<br />
-					Engineering, and Data Science</p>
-					<p><a href="https://spiralscience.slack.com/signup">Join the Slack!</a></p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#about" class="active">About</a></li>
-						<li><a href="#syllabus">Syllabus</a></li>
-						<li><a href="#resources">Useful Resources</a></li>
-						<li><a href="#schedule">Schedule</a></li>
-						<li><a href="#projects">Projects</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="http://neurodata.io" class="icon fa-mouse-pointer"><span class="label">Website</span></a></li>
-						<li><a href="http://github.com/neurodatadesign" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="jovo [at] jhu [dot] edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- One -->
-							<section id="about">
-								<div class="container">
-									<header class="major">
-										<h2>Neuro Data Team I &  II</h2>
-										<p>580.237/437/697 and 580.238/438/698</p>
-									</header>
-
-									<p><bold>Location:</bold>
-									Kavli North Hub (3rd floor of Clark) unless stated otherwise below in the Schedule or in the <a href="https://spiralscience.slack.com/signup">slack channel</a></p>
-
-									<p><bold>Instructor:</bold> Joshua Vogelstein</p>
-
-									<p>TA: Vikram Chandrashekhar</p>
-
-									<p>Meetings: Tentatively MWF 3 - 415 (subject to change pending interest)</p>
-
-
-
-									<h2>About</h2>
-
-
-								    <p>In this year long course, students will work together in small teams to either add functionality to an existing data science tool,
-											or use said tool to analyze some brain science data.
-											The first semester will focus on scoping, including determining feasibility (for us in a year) and significance (for the targeted brain/data science community),
-											as well as a statement of work specifying deliverables and milestones.
-											Throughout, we will be (approximately) using the <a href="https://realtimeboard.com/blog/choose-between-agile-lean-scrum-kanban/">agile/lean</a> development process.</p>
-
-
-																<p>This course is based on my experience as an academic, and entrepreneur, an advisor, and an instructor.  It is designed to be the best class you'll ever take.  You will  learn (by doing and getting feedback) the skills that I have found particularly useful in my endeavors. It will be organized into <a href="https://en.wikipedia.org/wiki/Scrum_(software_development)">sprints</a>, loosely based on Agile software development practices.  Weekly progress will be reported documenting goals towards your team sprints, with sprint demo's to happen at the close of each sprint.  Each team will be graded jointly on the basis of meeting the sprint goals, as well as providing clear and concise weekly progress reports.
-																</p>
-
-																<p>The main "skills" you will learn in this class include:
-																	<ul>
-																		<li>How to choose a <bold>significant</bold> and <bold>feasible</bold> project.
-																		<li>How to scope work so that you can achieve weekly progress towards quarterly goals.
-																		<li>How to effectively communicate technical content.
-																		<li>How to generate publication quality figures (see <a href="https://github.com/neurodata/checklists/blob/master/figures.md">figure checklist</a> for details).
-																		<li>How to complete a wide set of data science tasks, spanning from data munging to statistical modeling.
-																		<li>How to peacefully and productively work with a diverse team of passionate individuals.
-																	</ul>
-																</p>
-
-										<h2>Course Requirements</h2>
-
-										Admittance to this course requires approval from the instructor, to ensure the students in the course are sufficient diverse along a number  of dimensions.  To gain admittance, you must:
-											<ol>
-												<li>Be more <em>excited</em> about this course than any other academic endeavor for the year. Nobody is required to teach or take this course, and since so many people want to take it each year, preference is given to those that are most <bold>passionate</bold> about the material.
-												<li>Because this course is based on team projects, <b>I will approve entire teams all at once.</b> You can join the course slack channel <a href="https://join.slack.com/t/spiralscience/shared_invite/enQtMzQ3MzY2MzEwOTk3LWE0YzRmZjBhMDcyZGY1MGY5MDFjYWRhNjMxNzU1MzhkYjBlZTI2YWUwNWQ1NjRjOTQ3OGY0NDMyOGI3ODY5NGI">here</a> to chat with other potential team mates.
-												<li>Send the CV and transcript of all members of your planned team to me for joint approval.
-											</ol>
-
-
-											<h2>Potential Projects</h2>
-
-
-											Each team will extend and apply machine learning tools to tool to answer an important neurobiology question.  Potential neurobiology questions to answer include:
-											<ul>
-												<li>Characterize connectomic variability as a function of phenotypic/psychiatric variability.
-												<li>Mitigate batch effects in human MRI derived connectomes.
-												<li>Build models of connectomes, potentially incorporating joint and individual variation.
-											</ul>
-
-											<h3>Tools</h3>
-											We will extend/modify one of the following tools, listed in approximate order of interest:
-											<ul>
-												<li><a href="https://github.com/neurodata/R-RerF">Random Projection Forest (RPF)</a> for nonparametric regression and classification.
-												<li><a href="https://github.com/neurodata/graphstats">Graph Statistics</a> statistical estimation and testing on graph-valued data.
-												<li><a href="https://github.com/neurodata/ndmg">NeuroData's MRI to Graphs (ndmg)</a> for analysis and statistcs of MRI derived connectomes.
-												<li><a href="https://github.com/neurodata/mgc">Multiscale Graph Correlation (MGC)</a> statistical testing.
-												<li><a href="https://github.com/neurodata/ndreg">NeuroData's Registration (ndreg)</a> for nonlinear 3D image registration.
-												<li><a href="https://github.com/neurodata/lol">Linear Optimal Low-rank (LOL) projections</a>.
-												<li><a href="https://github.com/neurodata/slb">Statistical Learning Benchmark (SLB)</a>.
-											</ul>
-
-											<h3>Data</h3>
-
-											To facilitate interest across teams, all teams will be applying their tools to the same dataset, specifically, the "Healthy Brain Network" data.
-											Some resources to learn about HBN include:
-											<ul>
-												<li><a href="https://healthybrainnetwork.org/">https://healthybrainnetwork.org/</a>.
-												<li><a href="http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/index.html">http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/index.html</a>.
-												<li><a href="https://www.nature.com/articles/sdata2017181">link to manuscript</a>.
-											</ul>
-
-
-
-										<h2>Recommended Background</h2>
-
-										Numerical programming (R or Python), basics of statistics, computer vision, machine learning, and familiarity or interest in neuroscience.
-
-																	<h2>Code of Conduct</h2>
-
-																	Our course is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of course participants in any form. Sexual language and imagery is not appropriate for any coourse content, including talks, slides, or presentations. Course participants violating these rules may be sanctioned or given a failing grade for the year.
-
-<br><br>
-
-																	<h3>Feedback on Class</h3>
-
-NDD I (Fall 2017)<br>
-																	Taken from <a href="https://studentaffairs.jhu.edu/registrar/wp-content/uploads/sites/23/2018/03/Summary-of-Student-Course-Evaluations-SP18.pdf">student affairs</a>
-																	<br>
-																	Overall quality of the class: 4.63<br>
-Summary:
-The best aspects of this course included the professor's guidance and attentiveness, the opportunity to
-conduct independent research, and the ample resources provided. Negative feedback was limited.
-Suggestions for improvement included meeting more often and providing some guidance on team
-dynamics based on previous classes. Prospective students should have a background in advanced math
-and computer science.
-
-<br><br>
-
-NDD II (Spring 2017)<br>
-Taken from <a href="https://studentaffairs.jhu.edu/registrar/wp-content/uploads/sites/23/2017/11/Summary-of-Student-Comments-for-Spring-2017.pdf">student affairs</a>
-<br>
-Overall quality of this course: 4.58
-<br>
-
-Summary:
-The best aspects of this course included the applicable course material, interesting project, and real world knowledge gained. Some students felt that the material was challenging for those without math
-experience, and that some more complicated concepts had to essentially be self-taught. Suggestions for improvement included providing more transparent grades and frequent feedback, as well as better availability and communication from the instructors. Having more specific expectations from data providers, spending more time researching a topic, and advertising the course as something more CA-geared would also be beneficial. Prospective students should have some knowledge of programming, particularly Python, before enrolling.
-<br><br>
-																	<h4>Feedback forms from past years</h4>
-																	<a href=examples/NDD-SP16.pdf>Spring 2016</a>
-																	<br>
-																	<a href=examples/NDD-SP17.pdf>Spring 2017</a>
-																	<br>
-																	<a href=examples/NDD-FA17.pdf>Fall 2017</a>
-																	<br>
-																	<a href=examples/NDD-SP18.pdf>Spring  2018</a>
-																	<br>
-																	<a href=examples/NDD-FA18.pdf>Fall 2018</a>
-																	<br>
-																	<br>
-
-
-<h4>Class Updates on the Basis of Feedback</h4>
-
-We plan to meet with each team at least twice a week.
-Weekly grades will be provided.
-TA is available via slack for questions, and both instructor and TA are available MWF in person during/after class for questions.
-More lectures will be provided about effective team dynamics.
-
-
-</div>
-</section>
-
-							<section id="syllabus">
-								<div class="container">
-                                    <h2>Syllabus</h2>
-
-																		<p>A google calendar will have the schedule, and all students will have access to see it.
-</p>
-
-																		<h3>Assignments</h3>
-
-																		There will be four main assignments due over the course of the year.
-																		In each case, the instructor will provide you with successful examples.
-																		The schedule of sprints will be:
-																		<ol>
-																				<li><bold>Sprint 0: August 30 - September 30th.</bold> Scope Sprint
-																				<li><bold>Sprint 1: October 1 - December 12.</bold> Code and/or Data Sprint
-																				<li><bold>Sprint 2: January 28 - March 15.</bold> Code and/or Data Sprint
-																				<li><bold>Sprint 3: March 25 - May 8.</bold> Code and/or Data Sprint
-																		</ol>
-
-																		All teams will participate in the scope sprint.
-																		For subsequent sprints, each team can choose whether to do either a code, data, or joint code and data sprint.
-																		The only constraint is that by the end of the year, each team must complete at least 1 full code sprint, and at least 1 full data sprint (a sprint that is both code/data counts as half of both).
-
-																			<h4>Scope Sprint</h4>
-																			In the first month of class you will scope a feasible and significant project for the year with your team members, consulting the instructor and reading background literature to establish a <bold>gap</gap> that you can fill.  The Statement of Work for this sprint will include:
-																				<ul>
-																				<li>A 2-page description of your project for the year,  so be submitted to AWS as a research grant to get AWS credits for the year for your project. See  <a href="https://aws.amazon.com/research-credits/">here</a> for details.
-																				<li>A statement of work listing the deliverables for each of the subsequent three sprints during the semester.  This statement of work will include a 1-paragraph description of the work per sprint, as well as a clear and concise enumerated list of milestones with appropriate performance metrics.  It will require a detailed graphical description (e.g., a figure) providing an example of both the qualitative and quantitative evaluation procedures that you will be using for the duration of the course.
-																				<li>A "pitch deck" to be presented to the class.
-																				<li>A feedback form to presented to the class that other members of the class will be required to fill out at the end of Sprint 2 and will partially determine your grade.
-																			</ul>
-
-																			For each of the following sprints, there are two options: (1) merge in a "pull request" adding some functionality to one of the above listed repositories, or (2) analyze data using the above tools.
-																			So, the main goal for Sprint 0 is to plan out which of these two options you are choosing for each of the subsequent three sprints (combinations of the two are also welcome).
-
-
-<br><br>
-																			<h4>Code Sprint</h4>
-
-																			A code sprint deliverable is a succesfully merged <a href="https://yangsu.github.io/pull-request-tutorial/">pull request</a> into one of the above code repositories.
-																				That PR will comply with the packages "contribution guidelines".  It will also require coordinating with the maintainer of the package.
-																				My recommendation is that you make your PR about 2 weeks prior to the end of the sprint, to give the maintainer sufficient time to evaluate the PR, and possibly iterate with you (which is the norm, even amongst professionals).
-																				The PR should of course include suitable documentation and a tutorial for all additional functionality (either as a vignette or Jupyter notebook).
-																				At the conclusion of the sprint, the team will therefore deliver:
-																				<ul>
-																					<li>A github commit message indicating a successful PR into an "integration" branch, with a detailed change log
-																					<li>Demo notebooks/vignettes for each additional function including publication quality figures, both qualitative and quantitative ones.
-																					<li>A 20-minute presentation presenting the motivation, challenge, action, and result of your work. This presentation will document the degree to which you have achieved all the goals established for this sprint.
-																					<li>A live demo during the final showcasing the primary functionality of the tool.
-																					<li>A 4 page report that could be submitted to a conference or workshop describing the repository.
-																					<li>If it is the 2nd and/or 3rd code sprint, it must also include an update to either CRAN or PyPi (note that this often takes multiple weeks, so again I recommend you try weeks in advance).
-																					</ul>
-
-																			<h4>Data Sprint</h4>
-
-																			A data sprint deliverable is a "conference publication" style report documenting an analysis on a given data, with publication quality figures.
-																			The first data sprint will result in a short 4 page report, with ~10 references, the 2nd one will result in an 8-page report.
-																			All reports must have publication quality figures.
-																			All figures must be fully reproducible (end-to-end, starting with the same raw data that you started with) using Jupyter notebooks or the like.
-																			Grades will consider whether we are able to reproduce your analysis.
-																			At the conclusion of the sprint, the team will therefore deliver:
-																					<ul>
-																						<li>A conference report with publication quality figures
-																						<li>A notebook to reproduce each of the quantitative results from the report
-																						<li>A 20-minute presentation presenting the motivation, challenge, action, and result of your work. This presentation will document the degree to which you have achieved all the goals established for this sprint.
-																						<li>A live demo during your analysis.
-																						<li>If it is the 2nd and/or 3rd data sprint, data derivatives must also be deposited in an open access repository.
-																					</ul>
-
-
-
-																		<h3>Credits</h3>
-
-
-
-																		<p>This course will provide 4 design-credits per semester, and will be a team-based year-long undertaking in data science and neuroscience.
-																			The 2xx level does not require extensive numerical programming, and is designed for underclass persons to learn about the design process by contributing in a variety of ways to the teams progress, and includes written assignments.
-																			The 4xx level is designed for upperclass persons, counts for 4-credits of design per semester in BME.
-																			Each team will have a team captain who is required to take the 6xx level, and will have additional requirements.
-																			Other graduate students can also take the 6xx level.
-																			Students in the 4xx level and above will be expected to have some background in programming, statistics, and linear algebra, and should be willing to learn more.
-																			The software produced will be open-source under the Apache 2.0 licence, and must be reproducible (i.e. another can run it and recreate the findings documented/reported).
-																		</p>
-
-
-																		<h3>Weekly Class Organization</h3>
-
-																		This is subject to change, pending the feedback from the course participants.
-																		There will be four teams, each with 4-6 team members (including a caption).
-																		The current plan is as follows:
-																		Mondays and Wednesdays will follow the same basic structure:
-																		<ul>
-																			<li>Minutes 1-15: jovo will provide a short lecture/tutorial on a topic of mutual interest.
-																			<li>Minutes 15-40: Team A will make a formal presentation to the class, tactfully accepting constructive criticism and feedback.
-																			<li>Minutes 40-50: 10 minute bio break.
-																			<li>Minutes 50-75: Team B will make a formal presentation to the class, tactfully accepting constructive criticism and feedback.
-																		</ul>
-
-																		The weekly schedule will be, for fall semester:
-																		Monday: 		Team 1 and 2,
-																		Wednesdays: Team 3 and 4.
-																		For spring semester:
-																		Monday: 		Team 3 and 4,
-																		Wednesdays: Team 1 and 2.
-
-
-
-																		<br><br>
-																		The formal presentations will take the following form: students from the group will present google slides.
-																		Each team member will have about 3+ slides detailing the following:
-                                    <ol>
-																				<li>1 slide: The sprint and weekly goals, each color coded to denote the degree of completion.
-                                        <li>1 slide per task: data (limited to: figures, tables, demos, or webpages) that the deliverable attempted was completed successfully, with links. Note that the content on the slide should include incontrovertible evidence of talk completion, i.e., stating "i did it" and/or linking to code that you claim does the job is insufficient.</li>
-                                        <li>1 slide: The deliverables the student will attempt the following week.</li>
-                                    </ol>
-
-                                    <p>Students are expected to practice presenting as a group each week. See these <a href="https://docs.google.com/presentation/d/1UrrILP06medc4dXGiW0ctTGVN5w0y1x0x5VrXrSh22c/edit?usp=sharing">example slides</a>. </p>
-
-																		After the presentations, jovo + TA will provide feedback with regard to plan, and the existing presentation, and what must be fixed by friday.
-
-																		<br><br>
-																		Fridays each team will have 20 minutes to present updated slides and revised/updated plan for the following week.
-																		This meeting is essentially geared to address any potential communication/presentation, for example, if a figure was not yet presentation quality,
-																		or a completed analysis was severely problematic for some reason.
-
-                                    <p></p>
-
-
-                                    <h3>Communication</h3>
-                                    <p>This class communicates largely in Slack. Please join our Slack channel at <a href="http://spiralscience.slack.com/signup">spiralscience</a> to get involved. Regular updates are provided in Slack, and the instructors will assume you have recieved them. TA will answer questions from slack approximately within 48 hours.</p>
-
-																		<h3>External Help</h3>
-                                    <p>Jovo and TA are typically available after class to provide feedback/guidance as requested.
-
-                                    <h3>Contributing</h3>
-
-																		Each team will have:
-																		<ol>
-                                        <li>A github repo containing all the code and other content for the course (possibly graduating to multiple repo's as appropriate).
-                                        <li>A slack channel on the team workspace.
-																				<li>A google drive folder containing the weekly slides (and jovo has edit permissions).
-                                    </ol>
-
-																		It is expected that each team member participates in each of the above three media.
-
-
-                                    <h3>Grading</h3>
-									<h4>Weekly</h4>
-									
-									See our grading rubric <a href="https://docs.google.com/document/d/1TCQPR2uSI6DiUriGGFHBxGRoH7l95VSaZfb0oGDicQ0/edit?usp=sharing">here</a>
-
-                                    <p>Each week students will be graded on the degree of completion of their deliverables, typically including both a qualitative and quantitative result.
-																			After your presentations, instructors will provide detailed feedback on your slides, with instructions on how to improve them.
-																			At the team specific meeting later in the week, the expectation will be that you have updated your slides entirely on the basis of this feedback.
-					    											Grades will be provided on the basis of your ability to complete the tasks you set out to perform, and update slides on the basis of other's input. In addition, slides should have research artifacts for each task (whether completed or not) and 1 relevant visualization of the HBN data/useful tool you can apply to the data. </p>
-
-																		<h4>Sprint Deliverable Grades</h4>
-
-																		<p>The sprint deliverables will be graded as follows.
-																			Jovo will send a link to your webpage to a technically competent student or collaborator, as well as instructions on which data to run the tool on.
-																			That person will attempt to run the tool from start to finish.
-																			If she is unable to complete the analysis, you get a zero.
-																			If she is able to complete it, but gets results dramatically different from what she should have gotten, you get a 50%.
-																			If she is able to complete it, and gets answers that are reasonable, you get a 100%.
-																			This is all per task.
-
-                                    <h3>Feedback</h3>
-
-                                    <p>Steven Covey, author of "Seven Habits", states that the 7th habit is "sharpening our sword", which means (for this class), getting feedback and seriously considering it. Every person involved in the class will therefore be required to provide feedback to others, including the instructor.   Students will also identify properties of the class which gruntle or disgruntle them, so that we may make adjustments.  <a href="https://goo.gl/forms/dLUS48mniPKhGcyj1">Link to Peer Evaluation</a>.
-																		</p>
-
-
-																	</div>
-								</section>
-
-
-								<section id="ABET">
-				                                    <div class="container">
-
-                                    <h3>ABET Student Outcomes</h3>
-                                    <ul>
-                                        <li>(a1) Apply knowledge of advanced mathematics (calculus, differential equations, linear algebra, statistics) to problems at the interface of engineering, biology and medicine</li>
-                                        <li>(a5) Mathematically model and simulate biological systems using computers</li>
-                                        <li>(b1) Formulate hypothesis for experiments, including those on living systems</li>
-                                        <li>(b4) Display, describe, summarize and interpret experimental results in a lab report</li>
-                                        <li>(c1) Identify a desired need and define the biomedical engineering problem to be solved</li>
-                                        <li>(c2) Determine the constraints to the problem and assess the successful likelihood for different approaches</li>
-                                        <li>(d1) Communicate opinions, viewpoints and expertise with other team members</li>
-                                        <li>(d2) Understand team goals and assume and fulfill individual responsibilities within the team</li>
-                                        <li>(e3) Solve problem using experimental, mathematical and/or computational tools</li>
-                                        <li>(g1) Synthesize, summarize and explain technical content in a written report</li>
-                                        <li>(g2) Synthesize, summarize and explain technical content in an oral presentation</li>
-                                        <li>(k1) Gain proficiency in computer simulations and mathematical analysis tools</li>
-                                    </ul>
-																	</div>
-								</section>
-				<section id="resources">
-					<div class="container">
-							<h3>Online Resources</h3>
-							<ul>
-									<li><a href="https://www.coursera.org/specializations/jhu-data-science">Data Science Specialization</a>: This coursera series introduces the listener to the R programming language, and shows the usage of various useful tools within the language (R markdown, probability distributions and related functions, plotting, etc).</li>
-									<li><a href="https://www.datacamp.com/courses/intro-to-python-for-data-science">Python for data science</a>: This course introduces the python programming language for data science.</li>
-									<li><a href="https://www.coursera.org/learn/image-processing">Image and Video Processing: From Mars to Hollywood with a Stop at the Hospital</a>: In this course, you will learn the science behind how digital images and video are made, altered, stored, and used.
-									<li><a href="https://www.coursera.org/learn/functional-mri">Principles of fMRI</a>: This coursera series introduces functional magnetic resonance imaging (MRI) and the various ways to process/analyze it.</li>
-							</ul>
-	
-							<h3>Books</h3>
-	
-							<ul>
-									<li><a href="https://www.amazon.com/Data-Science-Transform-Visualize-Model-ebook/dp/B01NAJAEN5/ref=mt_kindle?_encoding=UTF8&me=">R for Data Science</a>.</li>
-									<li><a href="https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/ref=asap_bc?ie=UTF8">Python for data science</a>.</li>
-									<li><a href="https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/ref=asap_bc?ie=UTF8">Connectome: How the Brain's Wiring Makes Us Who We Are</a>.</li>
-									<li><a href="https://link.springer.com/book/10.1007%2F978-1-4471-4929-3">Best book on random forest</a>.</li>
-							</ul>
-	
-							<h3>Articles</h3>
-	
-							<ul>
-									<li><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0010042">The Human Connectome: A Structural Description of the Human Brain</a></li>
-									<li><a href="https://www.nature.com/articles/nmeth.2482">Imaging human connectomes at the macroscale</a></li>
-	
-							</ul>
-	
-							<h3>Visualization tools</h3>
-	
-							<ul>
-	
-								<li><a href="https://www.nitrc.org/projects/mricron/">MRIcron</a></li>
-								<li><a href="https://fiji.sc/">Fiji</a></li>
-								<li><a href="https://www.slicer.org/">3D Slicer</a></li>
-	
-	
-							</ul>
-
-					</div>
-						
-				</section>
-				<!-- Three -->
-				<section id="schedule">
-                                <div class="container">
-									<p>Course meetings will be in Clark 318 unless otherwise stated (in the schedule below or by slack), from 3 - 415.</br></p>
-                                    <table>
-                                        <tr>
-                                            <th>Date</th>
-                                            <th>Due Today</th>
-                                            <th>Important references</th>
-                                        </tr>
-                                        <tr>
-                                            <td>August 31</td>
-                                            <td></td>
-                                            <td>Logistics; Team setup; <a href="https://blog.neurodata.io/misc/2018/08/31/sig-and-feas.html">Class Notes</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>September 5</td>
-                                            <td></td>
-                                            <td><a href="https://blog.neurodata.io/misc/2018/09/04/slides.html">Some Notes of Making Slides</a></br><a href="https://www.nami.org/Learn-More/Mental-Health-By-the-Numbers">Mental Health by the Numbers</a></br><a href="https://drive.google.com/open?id=1Kg4h7XVBCRUrNZM2RlmlW9PmogW6IDUJNHa2U92JkXI">Slides from class today</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>September 7</td>
-                                            <td>Project board on github with sprint deliverables per person</td>
-                                            <td><a href=https://docs.google.com/document/d/1ibsI4pYPnfOrFQHZEbLCQphVGPJ4VoQ09q7PApdYM1M/edit?usp=sharing>Successful AWS grant 1</a></br><a href="https://docs.google.com/document/d/1HYPsC532QtN5VWp4y8VlSwR1sLSsSieQbBlulPALMgo/edit?usp=sharing">successful AWS grant 2</a></td>
-                                        </tr>
-					<tr>
-                                            <td>September 10</td>
-                                            <td>no jovo. supervised rerf team presents.</td>
-                                            <td><a href="https://blog.neurodata.io/2018/09/08/figures.html">Notes on Making Figures</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>September 12</td>
-											<td>HBN visualization due </br>mgcpy + graphstats present </td>
-                                            <td><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/widm.8">Classification and Regression Trees</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>September 14</td>
-                                            <td>AWS Draft proposal due <a href="https://drive.google.com/drive/folders/1MuW-X1rhzGilfccZGhAgIPwiwbt9XVh3?usp=sharing">here</a></br>the ents + supervised rerf present</td>
-                                            <td><a href="https://github.com/coreinfrastructure/best-practices-badge/blob/master/doc/criteria.md">Best practices for open source software</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>September 17</td>
-                                            <td>Class in Clark 318 (Kavli NDI room)</td>
-                                            <td><a href="https://docs.google.com/presentation/d/1c2fJlhtrHuYfH9GWdjGp_6CwDlhUzQZ4zyOAbT0zWaw/edit?usp=sharing">slides for this week</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>September 19</td>
-                                            <td>no jovo. office hours with vikram in Clark 318</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>September 21</td>
-                                            <td>All teams present</br></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>September 24</td>
-                                            <td>no jovo. office hours with vikram in clark 318</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>September 26</td>
-                                            <td>the ents and groot present</br>ReRF developers present</td>
-											<td><a href="https://docs.google.com/presentation/d/1R28VHE6UCQhFfx-z9ZaXu5PE4wK5rOsGEz1y4f3wk_A/edit?usp=sharing">slides for this week</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>September 28</td>
-                                            <td>mgcpy and graspy present</br>Sprint 0 Due</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>October 1</td>
-                                            <td>mgcpy presents; jovo talks about trees</td>
-                                            <td><a href="https://docs.google.com/presentation/d/1DjL_1c04UQ19TcYJ7m78ubE_0GINelsh2en6IKaoD5Q/edit?usp=sharing">slides for this week</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>October 3</td>
-                                            <td>the ents and groot present</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>October 5</td>
-                                            <td>feedback to each team</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>October 8</td>
-                                            <td>mgcpy and graspy present</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>October 10</td>
-                                            <td>the ents present</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>October 12</td>
-                                            <td>feedback to each team</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>October 15</td>
-                                            <td>mgcpy and graspy present</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>October 17</td>
-                                            <td>the ents and groot present</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>October 19</td>
-                                            <td>feedback to each team</td>
-											<td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>October 22</td>
-                                            <td>mgcpy and graspy present</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>October 24</td>
-                                            <td>groot feedback; ents present</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>October 26</td>
-                                            <td>ents feedback; mgcpy presents</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>October 29</td>
-                                            <td>mgcpy feedback; graspy presents</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>October 31</td>
-                                            <td>groot feedback; ents present</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>November 2</td>
-                                            <td>no class</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>November 5</td>
-                                            <td>no class</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>November 7</td>
-                                            <td>no class</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>November 9</td>
-                                            <td>no class</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>November 12</td>
-                                            <td>mgcpy feedback; graspy presents</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>November 14</td>
-                                            <td>groot feedback; ents present</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>November 16</td>
-                                            <td>ents feedback; mgcpy presents</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>November 19</td>
-                                            <td>mgcpy feedback; graspy presents</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>November 21</td>
-                                            <td>groot feedback; ents present</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>November 23</td>
-                                            <td>ents feedback; mgcpy presents</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>November 26</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>November 28</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>November 30</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>December 3</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>December 5</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>December 7</td>
-                                            <td></td>
-                                            <td>Last class day</td>
-                                        </tr>
-                                        <tr>
-                                            <td>December 14</td>
-                                            <td>Final 9 - 12</td>
-                                            <td>food provided</td>
-                                        </tr>
-                                    </table>
-                                </div>
-							</section>
-			
-			<section id="projects">
+<head>
+	<title>Neuro Data Design</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+
+<body>
+
+	<!-- Header -->
+	<section id="header">
+		<header>
+			<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+			<h1 id="logo"><a href="#">Neurodata <br>Team I & II</a></h1>
+			<p>at the intersection of Neurobiology,<br />
+				Engineering, and Data Science</p>
+			<p><a href="https://spiralscience.slack.com/signup">Join the Slack!</a></p>
+		</header>
+		<nav id="nav">
+			<ul>
+				<li><a href="#about" class="active">About</a></li>
+				<li><a href="#syllabus">Syllabus</a></li>
+				<li><a href="#resources">Useful Resources</a></li>
+				<li><a href="#schedule">Schedule</a></li>
+				<li><a href="#projects">Projects</a></li>
+			</ul>
+		</nav>
+		<footer>
+			<ul class="icons">
+				<li><a href="http://neurodata.io" class="icon fa-mouse-pointer"><span class="label">Website</span></a>
+				</li>
+				<li><a href="http://github.com/neurodatadesign" class="icon fa-github"><span
+							class="label">Github</span></a></li>
+				<li><a href="jovo [at] jhu [dot] edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
+			</ul>
+		</footer>
+	</section>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- One -->
+			<section id="about">
 				<div class="container">
-				<h2>2018-2019 Projects</h2>
-				<ul>
-				<li><a href="https://github.com/NeuroDataDesign/mgcpy">mgcpy</a>
-				<li><a href="https://github.com/neurodata/pygraphstats">graspy</a>
-				<li><a href="https://github.com/NeuroDataDesign/R-RerF">groot</a>
-				<li><a href="https://github.com/NeuroDataDesign/py-U-Rerf">the ents</a>
-				</ul>
+					<header class="major">
+						<h2>Neuro Data Team I & II</h2>
+						<p>580.237/437/697 and 580.238/438/698</p>
+					</header>
+
+					<p>
+						<bold>Location:</bold>
+						Kavli North Hub (3rd floor of Clark) unless stated otherwise below in the Schedule or in the <a
+							href="https://spiralscience.slack.com/signup">slack channel</a>
+					</p>
+
+					<p>
+						<bold>Instructor:</bold> Joshua Vogelstein
+					</p>
+
+					<p>
+						<bold>TA</bold>: several
+					</p>
+
+					<p>
+						<bold>Meeting Time</bold>: MW 12 - 1:15, and lab session to be determined
+					</p>
+
+					<p>
+						<bold>Credits</bold>: This course will provide 4 design-credits for the first semester and six
+						credits for the
+						second semester, and will be a team-based year-long undertaking in data science and
+						neuroscience. The 2xx level is 3 credits both semesters.
+					</p>
+
+					<p>
+						<bold>Pre-Requisites</bold>You must be more excited about this class than any other class. If
+						you are planning on doing research in a lab it is expected that you instead dedicate more time
+						to this class.
+					</p>
+
+					<h2>About</h2>
+
+
+					<p>In this year long course, students will work together in small teams to either add functionality
+						to an existing data science tool, or use said tool to analyze some brain science data. The first
+						semester will focus on scoping, including determining the degree of
+						<ul>
+							<li>feasibility (for us in a year), </li>
+							<li>significance (for the targeted brain/data science community), and</li>
+							<li>passion (for the project amongst team members).</li>
+						</ul>
+						See <a href="https://bitsandbrains.io/2018/08/31/sig-and-feas.html">this</a> for more details.
+						The deliverable will be a statement of work specifying deliverables and milestones to be
+						submitted to <a href="https://aws.amazon.com/research-credits/"> AWS research credits
+							program</a>.
+						Throughout, we will be (approximately) using the <a
+							href="https://realtimeboard.com/blog/choose-between-agile-lean-scrum-kanban/">agile/lean</a>
+						development process.</p>
+
+
+					<p>This course is based on my experience as an academic, and entrepreneur, an advisor, and an
+						instructor. It is designed to be the best class you'll ever take. You will learn (by doing and
+						getting feedback) the skills that I have found particularly useful in my endeavors. It will be
+						organized into <a href="https://en.wikipedia.org/wiki/Scrum_(software_development)">sprints</a>,
+						loosely based on Agile software development practices. Weekly progress will be reported
+						documenting goals towards your team sprints, with sprint demo's to happen at the close of each
+						sprint. Each team will be graded jointly on the basis of meeting the sprint goals, as well as
+						providing clear and concise weekly progress reports. </p>
+
+					<p>The main "skills" you will learn in this class include:
+						<ul>
+							<li>How to choose a project <bold>significant</bold> for the world, <bold>feasible</bold>
+								for you, and that you are passionate about.
+							<li>How to scope work so that you can achieve weekly progress towards quarterly goals.
+							<li>How to effectively communicate technical content.
+							<li>How to generate publication quality figures (see <a
+									href="https://bitsandbrains.io/2018/09/08/figures.html">figure checklist</a> for
+								details).
+							<li>How to complete a wide set of data science tasks, spanning from data wrangling to
+								statistical modeling.
+							<li>How to peacefully and productively work with a diverse team of passionate individuals.
+						</ul>
+					</p>
+
+					<h2>Course Requirements</h2>
+
+					Admittance to this course requires approval from the instructor, to ensure the students in the
+					course are sufficient diverse along a number of dimensions. To gain admittance, you must:
+					<ol>
+						<li>Be more <em>excited</em> about this course than any other academic endeavor for the year.
+							Nobody is required to teach or take this course, and since so many people want to take it
+							each year, preference is given to those that are most <bold>passionate</bold> about the
+							material.
+						<li>Because this course is based on team projects, <b>I will approve entire teams all at
+								once.</b> You can join the course slack channel <a
+								href="https://join.slack.com/t/spiralscience/shared_invite/enQtMzQ3MzY2MzEwOTk3LWE0YzRmZjBhMDcyZGY1MGY5MDFjYWRhNjMxNzU1MzhkYjBlZTI2YWUwNWQ1NjRjOTQ3OGY0NDMyOGI3ODY5NGI">here</a>
+							to chat with other potential team mates.
+						<li>Send the CV and transcript of all members of your planned team to me for joint approval.
+					</ol>
+
+
+					<h2>Potential Projects</h2>
+
+
+					Each team will extend and apply machine learning tools to tool to answer an important neurobiology
+					question. Potential neurobiology questions to answer include:
+					<ul>
+						<li>Characterize connectomic variability as a function of phenotypic variability.
+						<li>Mitigate batch effects in human MRI derived connectomes.
+						<li>Build models of connectomes, potentially incorporating joint and individual variation.
+					</ul>
+
+					<h3>Tools</h3>
+					We will extend/modify one of the following tools, listed in approximate order of interest:
+					<ul>
+						<li><a href="https://neurodata.io/rerf/">Randomer Forest (RerF)</a> for
+							nonparametric regression and classification.
+						<li><a href="https://neurodata.io/graspy/">Graph Statistics in Python</a> statistical
+							estimation and testing on graph-valued data.
+						<li><a href="https://neurodata.io/ndmg/">NeuroData's MRI to Graphs (ndmg)</a> for
+							analysis and statistcs of MRI derived connectomes.
+						<li><a href="https://neurodata.io/mgc/">Multiscale Graph Correlation (MGC)</a>
+							statistical testing.
+						<li><a href="https://neurodata.io/ndreg/">NeuroData's Registration (ndreg)</a> for
+							nonlinear 3D image registration.
+						<li><a href="https://neurodata.io/lol/">Linear Optimal Low-rank (LOL) projections</a>.
+						<li><a href="https://github.com/neurodata/slb">Statistical Learning Benchmark (SLB)</a>.
+					</ul>
+
+					<h3>Data</h3>
+
+					We will be applying our tools to various datasets, such as the Healthy Brain Network data:
+					<ul>
+						<li><a href="https://healthybrainnetwork.org/">https://healthybrainnetwork.org/</a>.
+						<li><a
+								href="http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/index.html">http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/index.html</a>.
+						<li><a href="https://www.nature.com/articles/sdata2017181">link to manuscript</a>.
+					</ul>
+
+
+
+					<h2>Recommended Background</h2>
+
+					Numerical programming (in Python), basics of statistics, linear algebra, machine learning, and
+					familiarity or interest in neuroscience.
+
+					<h2>Code of Conduct</h2>
+
+					Our course is dedicated to providing a harassment-free conference experience for everyone,
+					regardless of gender, gender identity and expression, age, sexual orientation, disability, physical
+					appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not
+					tolerate harassment of course participants in any form. Sexual language and imagery is not
+					appropriate for any course content, including talks, slides, or presentations. Course participants
+					violating these rules may be sanctioned or given a failing grade for the year.
+
+					<br><br>
+
+					<h3>Feedback on Class</h3>
+
+					NDD I (Fall 2017)<br>
+					Taken from <a
+						href="https://studentaffairs.jhu.edu/registrar/wp-content/uploads/sites/23/2018/03/Summary-of-Student-Course-Evaluations-SP18.pdf">student
+						affairs</a>
+					<br>
+					Overall quality of the class: 4.63<br>
+					Summary:
+					The best aspects of this course included the professor's guidance and attentiveness, the opportunity
+					to
+					conduct independent research, and the ample resources provided. Negative feedback was limited.
+					Suggestions for improvement included meeting more often and providing some guidance on team
+					dynamics based on previous classes. Prospective students should have a background in advanced math
+					and computer science.
+
+					<br><br>
+
+					NDD II (Spring 2017)<br>
+					Taken from <a
+						href="https://studentaffairs.jhu.edu/registrar/wp-content/uploads/sites/23/2017/11/Summary-of-Student-Comments-for-Spring-2017.pdf">student
+						affairs</a>
+					<br></br>
+					Overall quality of this course: 4.58
+					<br></br>
+
+					Summary:
+					The best aspects of this course included the applicable course material, interesting project, and
+					real world knowledge gained. Some students felt that the material was challenging for those without
+					math experience, and that some more complicated concepts had to essentially be self-taught.
+					Suggestions for improvement included providing more transparent grades and frequent feedback, as
+					well as better availability and communication from the instructors. Having more specific
+					expectations from data providers, spending more time researching a topic, and advertising the course
+					as something more CA-geared would also be beneficial. Prospective students should have some
+					knowledge of programming, particularly Python, before enrolling.
+					<br><br>
+					<h4>Feedback forms from past years</h4>
+					<a href=examples/NDD-SP16.pdf>Spring 2016</a> <br></br>
+						<a href=examples/NDD-SP17.pdf>Spring 2017</a> <br></br>
+							<a href=examples/NDD-FA17.pdf>Fall 2017</a> <br></br>
+								<a href=examples/NDD-SP18.pdf>Spring 2018</a> <br></br>
+									<a href=examples/NDD-FA18.pdf>Fall 2018</a> <br></br>
+										<br></br>
+
+
+										<h4>Class Updates on the Basis of Feedback</h4>
+
+										We plan to meet with each team at least twice a week.
+										TA is available via slack for questions, and both instructor and TA are
+										available MWF in person during/after class for questions.
+										More lectures will be provided about effective team dynamics.
+
+
 				</div>
 			</section>
 
-				<!-- Footer -->
+			<section id="syllabus">
+				<div class="container">
+					<h2>Syllabus</h2>
+
+
+					<h3>Assignments</h3>
+
+					There will be four main assignments due over the course of the year.
+					In each case, the instructor will provide you with successful examples.
+					The schedule of sprints will be:
+					<ol>
+						<li>
+							<bold>Sprint 0: August 30 - September 30th.</bold> Scope Sprint
+						<li>
+							<bold>Sprint 1: October 1 - December 12.</bold> Code and/or Data Sprint
+						<li>
+							<bold>Sprint 2: January 28 - March 15.</bold> Code and/or Data Sprint
+						<li>
+							<bold>Sprint 3: March 25 - May 8.</bold> Finalize and submit manuscript sprint.
+					</ol>
+
+					All teams will participate in the scope and finalize sprint.
+					For subsequent sprints, each team can choose whether to do either a code, data, or joint code and
+					data sprint.
+					The only constraint is that by the end of the year, each team must complete at least 1 full code
+					sprint, and at least 1 full data sprint (a sprint that is both code/data counts as half of both).
+
+					<h4>Scope Sprint</h4>
+					In the first month of class you will scope a feasible and significant project for the year with your
+					team members, consulting the instructor and reading background literature to establish a <bold>gap
+						</gap> that you can fill. The Statement of Work for this sprint will include:
+						<ul>
+							<li>A 2-page description of your project for the year, so be submitted to AWS as a research
+								grant to get AWS credits for the year for your project. See <a
+									href="https://aws.amazon.com/research-credits/">here</a> for details.
+							<li>A statement of work listing the deliverables for each of the subsequent three sprints
+								during the semester. This statement of work will include a 1-paragraph description of
+								the work per sprint, as well as a clear and concise enumerated list of milestones with
+								appropriate performance metrics. It will require a detailed graphical description (e.g.,
+								a figure) providing an example of both the qualitative and quantitative evaluation
+								procedures that you will be using for the duration of the course.
+							<li>A "pitch deck" to be presented to the class.
+							<li>A feedback form to presented to the class that other members of the class will be
+								required to fill out at the end of Sprint 2 and will partially determine your grade.
+						</ul>
+
+						For each of the following sprints, there are two options: (1) merge in a "pull request" adding
+						some functionality to one of the above listed repositories, or (2) analyze data using the above
+						tools.
+						So, the main goal for Sprint 0 is to plan out which of these two options you are choosing for
+						each of the subsequent three sprints (combinations of the two are also welcome).
+
+
+						<br><br>
+						<h4>Code Sprint</h4>
+
+						A code sprint deliverable is a succesfully merged <a
+							href="https://yangsu.github.io/pull-request-tutorial/">pull request</a> into one of the
+						above code repositories. That PR will comply with the packages "contribution guidelines". It
+						will also require coordinating with the maintainer of the package. My recommendation is that you
+						make your PR about 2 weeks prior to the end of the sprint, to give
+						the maintainer sufficient time to evaluate the PR, and possibly iterate with you (which is the
+						norm, even amongst professionals).
+						The PR should of course include suitable documentation and a tutorial for all additional
+						functionality (as a Jupyter notebook).
+						At the conclusion of the sprint, the team will therefore deliver:
+						<ul>
+							<li>A github commit message indicating a successful PR into an "integration" branch, with a
+								detailed change log
+							<li>Demo notebooks for each additional function including publication quality
+								figures, both qualitative and quantitative ones.
+							<li>A 20-minute presentation presenting the motivation, challenge, action, and result of
+								your work. This presentation will document the degree to which you have achieved all the
+								goals established for this sprint.
+							<li>A live demo during the final showcasing the primary functionality of the tool.
+							<li>A 4 page report that could be submitted to a conference or workshop describing the
+								repository.
+							<li>If it is the 2nd and/or 3rd code sprint, it must also include an update to either CRAN
+								or PyPi (note that this often takes multiple weeks, so again I recommend you try weeks
+								in advance).
+						</ul>
+
+						<h4>Data Sprint</h4>
+
+						A data sprint deliverable is a "conference publication" style report documenting an analysis on
+						a given data, with publication quality figures.
+						The first data sprint will result in a short 4 page report, with ~10 references, the 2nd one
+						will result in an 8-page report.
+						All reports must have publication quality figures.
+						All figures must be fully reproducible (end-to-end, starting with the same raw data that you
+						started with) using Jupyter notebooks or the like.
+						Grades will consider whether we are able to reproduce your analysis.
+						At the conclusion of the sprint, the team will therefore deliver:
+						<ul>
+							<li>A conference report with publication quality figures
+							<li>A notebook to reproduce each of the quantitative results from the report
+							<li>A 20-minute presentation presenting the motivation, challenge, action, and result of
+								your work. This presentation will document the degree to which you have achieved all the
+								goals established for this sprint.
+							<li>A live demo during your analysis.
+							<li>If it is the 2nd and/or 3rd data sprint, data derivatives must also be deposited in an
+								open access repository.
+						</ul>
+
+
+						<h3>Credits</h3>
+
+
+
+						<p>This course will provide 4 design-credits for the first semester and six credits for the
+							second semester, and will be a team-based year-long
+							undertaking in data science and neuroscience.
+							The 2xx level does not require extensive numerical programming, and is designed for
+							underclass persons to learn about the design process by contributing in a variety of ways to
+							the teams progress, and includes written assignments.
+							The 4xx level is designed for upperclass persons, counts for 4-credits of design per
+							semester in BME.
+							Each team will have a team captain who is required to take the 6xx level, and will have
+							additional requirements.
+							Other graduate students can also take the 6xx level.
+							Students in the 4xx level and above will be expected to have some background in programming,
+							statistics, and linear algebra, and should be willing to learn more.
+							The software produced will be open-source under the Apache 2.0 licence, and must be
+							reproducible (i.e. another can run it and recreate the findings documented/reported).
+						</p>
+
+
+						<h3>Weekly Class Organization</h3>
+
+						This is subject to change, pending the feedback from the course participants.
+						There will be four teams, each with 4-6 team members (including a captain).
+						The current plan is as follows:
+						Mondays and Wednesdays will follow the same basic structure:
+						<ul>
+							<li>Minutes 1-15: jovo will provide a short lecture/tutorial on a topic of mutual interest.
+							<li>Minutes 15-40: Team A will make a formal presentation to the class, tactfully accepting
+								constructive criticism and feedback.
+							<li>Minutes 40-50: 10 minute bio break.
+							<li>Minutes 50-75: Team B will make a formal presentation to the class, tactfully accepting
+								constructive criticism and feedback.
+						</ul>
+
+						The weekly schedule will be, for fall semester:
+						Monday: Team 1 and 2,
+						Wednesdays: Team 3 and 4.
+						For spring semester:
+						Monday: Team 3 and 4,
+						Wednesdays: Team 1 and 2.
+
+
+
+						<br><br>
+						The formal presentations will take the following form: students from the group will present
+						google slides.
+						Each team member will have about 3+ slides detailing the following:
+						<ol>
+							<li>1 slide: The sprint and weekly goals, each color coded to denote the degree of
+								completion.
+							<li>1 slide per task: data (limited to: figures, tables, demos, or webpages) that the
+								deliverable attempted was completed successfully, with links. Note that the content on
+								the slide should include incontrovertible evidence of task completion, i.e., stating "i
+								did it" and/or linking to code that you claim does the job is insufficient.</li>
+							<li>1 slide: The deliverables the student will attempt the following week.</li>
+						</ol>
+
+						<p>Students are expected to practice presenting as a group each week. See these <a
+								href="https://docs.google.com/presentation/d/1UrrILP06medc4dXGiW0ctTGVN5w0y1x0x5VrXrSh22c/edit?usp=sharing">example
+								slides</a>, and <a href="https://bitsandbrains.io/2018/09/04/slides.html">these
+								guidelines</a> on making good slides. </p>
+
+						During and after the presentations, jovo + TA + classmates will provide feedback with regard to
+						plan and presentation.
+
+						<br><br>
+						Lab seeions each team will have 20 minutes to present updated slides and revised/updated plan
+						for
+						the following week.
+						This meeting is essentially geared to address any potential communication/presentation, for
+						example, if a figure was not yet presentation quality,
+						or a completed analysis was severely problematic for some reason.
+
+						<p></p>
+
+
+						<h3>Communication</h3>
+						<p>This class communicates largely in Slack. Please join our Slack channel at <a
+								href="http://spiralscience.slack.com/signup">spiralscience</a> to get involved. Regular
+							updates are provided in Slack, and the instructors will assume you have received them. TA
+							will answer questions from slack approximately within 48 hours.</p>
+
+						<h3>External Help</h3>
+						<p>Jovo and TA are typically available after class to provide feedback/guidance as requested.
+
+							<h3>Contributing</h3>
+
+							Each team will have:
+							<ol>
+								<li>A github repo containing all the code and other content for the course (possibly
+									graduating to multiple repo's as appropriate).
+								<li>A slack channel on the team workspace.
+								<li>A google drive folder containing the weekly slides (and jovo has edit permissions).
+							</ol>
+
+							It is expected that each team member participates in each of the above three media.
+
+
+							<h3>Grading</h3>
+
+							In general, it is expected that all students will be most excited about this class, and therefore invest a minimum of 12 hours of effort per week in the fall, and over 20 hours of effort per week in the spring.  Assuming you at least convince jovo and TAs of this level of effort, and address their weekly feedback, you should expect an A.  Anybody in danger of not receiving an A will be told so by jovo, and given clear requirements in order to bring your grade back up to an A.  Anybody not receiving an A in the first semester will not be invited back for the second semester. 
+
+							<h4>Weekly</h4>
+
+							See our grading rubric <a
+								href="https://docs.google.com/document/d/1TCQPR2uSI6DiUriGGFHBxGRoH7l95VSaZfb0oGDicQ0/edit?usp=sharing">here</a>
+
+							<p>Each week students will be graded on the degree of completion of their deliverables,
+								typically including both a qualitative and quantitative result.
+								After your presentations, instructors will provide detailed feedback on your slides,
+								with instructions on how to improve them.
+								Grades will be provided on the basis of your ability to complete the tasks you set out
+								to perform, and update slides on the basis of other's input. In addition, slides should
+								have research artifacts for each task (whether completed or not). </p>
+
+							<h4>Sprint Deliverable Grades</h4>
+
+							<p>The sprint deliverables will be graded as follows.
+								Jovo will send a link to your webpage to a technically competent student or
+								collaborator, as well as instructions.
+								That person will attempt to run the tool from start to finish.
+								If she is unable to complete the analysis, you get a zero.
+								If she is able to complete it, but gets results dramatically different from what she
+								should have gotten, you get a 50%.
+								If she is able to complete it, and gets answers that are reasonable, you get a 100%.</p>
+
+							<h3>Feedback</h3>
+
+							<p>Steven Covey, author of "Seven Habits", states that the 7th habit is "sharpening our
+								sword", which means (for this class), getting feedback and seriously considering it.
+								Every person involved in the class will therefore be required to provide feedback to
+								others, including the instructor. Students will also identify properties of the
+								class which gruntle or disgruntle them, so that we may make adjustments. <a
+									href="https://forms.gle/myfbosV5AdBi9kDH9">Link to  Evaluation Form</a>.
+							</p>
+
+
+				</div>
+			</section>
+
+
+			<section id="ABET">
+				<div class="container">
+
+					<h3>ABET Student Outcomes</h3>
+					<ul>
+						<li>(a1) Apply knowledge of advanced mathematics (calculus, differential equations, linear
+							algebra, statistics) to problems at the interface of engineering, biology and medicine</li>
+						<li>(a5) Mathematically model and simulate biological systems using computers</li>
+						<li>(b1) Formulate hypothesis for experiments, including those on living systems</li>
+						<li>(b4) Display, describe, summarize and interpret experimental results in a lab report</li>
+						<li>(c1) Identify a desired need and define the biomedical engineering problem to be solved</li>
+						<li>(c2) Determine the constraints to the problem and assess the successful likelihood for
+							different approaches</li>
+						<li>(d1) Communicate opinions, viewpoints and expertise with other team members</li>
+						<li>(d2) Understand team goals and assume and fulfill individual responsibilities within the
+							team</li>
+						<li>(e3) Solve problem using experimental, mathematical and/or computational tools</li>
+						<li>(g1) Synthesize, summarize and explain technical content in a written report</li>
+						<li>(g2) Synthesize, summarize and explain technical content in an oral presentation</li>
+						<li>(k1) Gain proficiency in computer simulations and mathematical analysis tools</li>
+					</ul>
+				</div>
+			</section>
+			<section id="resources">
+				<div class="container">
+					<h3>Online Resources</h3>
+					<ul>
+						<li><a href="https://www.coursera.org/specializations/jhu-data-science">Data Science
+								Specialization</a>: This coursera series introduces the listener to the R programming
+							language, and shows the usage of various useful tools within the language (R markdown,
+							probability distributions and related functions, plotting, etc).</li>
+						<li><a href="https://www.datacamp.com/courses/intro-to-python-for-data-science">Python for data
+								science</a>: This course introduces the python programming language for data science.
+						</li>
+						<li><a href="https://www.coursera.org/learn/image-processing">Image and Video Processing: From
+								Mars to Hollywood with a Stop at the Hospital</a>: In this course, you will learn the
+							science behind how digital images and video are made, altered, stored, and used.
+						<li><a href="https://www.coursera.org/learn/functional-mri">Principles of fMRI</a>: This
+							coursera series introduces functional magnetic resonance imaging (MRI) and the various ways
+							to process/analyze it.</li>
+						<li><a href="https://bitsandbrains.io/">jovo's blog</a></li>
+					</ul>
+
+					<h3>Books</h3>
+
+					<ul>
+						<li><a
+								href="https://www.amazon.com/Data-Science-Transform-Visualize-Model-ebook/dp/B01NAJAEN5/ref=mt_kindle?_encoding=UTF8&me=">R
+								for Data Science</a>.</li>
+						<li><a
+								href="https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/ref=asap_bc?ie=UTF8">Python
+								for data science</a>.</li>
+						<li><a
+								href="https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/ref=asap_bc?ie=UTF8">Connectome:
+								How the Brain's Wiring Makes Us Who We Are</a>.</li>
+						<li><a href="https://link.springer.com/book/10.1007%2F978-1-4471-4929-3">Best book on random
+								forest</a>.</li>
+					</ul>
+
+					<h3>Articles</h3>
+
+					<ul>
+						<li><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0010042">The
+								Human Connectome: A Structural Description of the Human Brain</a></li>
+						<li><a href="https://www.nature.com/articles/nmeth.2482">Imaging human connectomes at the
+								macroscale</a></li>
+
+					</ul>
+
+					<h3>Visualization tools</h3>
+
+					<ul>
+
+						<li><a href="https://www.nitrc.org/projects/mricron/">MRIcron</a></li>
+						<li><a href="https://fiji.sc/">Fiji</a></li>
+						<li><a href="https://www.slicer.org/">3D Slicer</a></li>
+
+
+					</ul>
+
+				</div>
+
+			</section>
+			<!-- Three -->
+			<!-- <section id="schedule"> -->
+				<!-- <div class="container"> -->
+					<!-- <p>Course meetings will be in Clark 318 unless otherwise stated (in the schedule below or by slack), -->
+						<!-- from 3 - 415.</br></p> -->
+					<!-- <table>
+						<tr>
+							<th>Date</th>
+							<th>Due Today</th>
+							<th>Important references</th>
+						</tr>
+						<tr>
+							<td>August 31</td>
+							<td></td>
+							<td>Logistics; Team setup; <a
+									href="https://blog.neurodata.io/misc/2018/08/31/sig-and-feas.html">Class Notes</a>
+							</td>
+						</tr>
+						<tr>
+							<td>September 5</td>
+							<td></td>
+							<td><a href="https://blog.neurodata.io/misc/2018/09/04/slides.html">Some Notes of Making
+									Slides</a></br><a
+									href="https://www.nami.org/Learn-More/Mental-Health-By-the-Numbers">Mental Health by
+									the Numbers</a></br><a
+									href="https://drive.google.com/open?id=1Kg4h7XVBCRUrNZM2RlmlW9PmogW6IDUJNHa2U92JkXI">Slides
+									from class today</a></td>
+						</tr>
+						<tr>
+							<td>September 7</td>
+							<td>Project board on github with sprint deliverables per person</td>
+							<td><a href=https://docs.google.com/document/d/1ibsI4pYPnfOrFQHZEbLCQphVGPJ4VoQ09q7PApdYM1M/edit?usp=sharing>Successful
+									AWS grant 1</a> </br> <a
+									href="https://docs.google.com/document/d/1HYPsC532QtN5VWp4y8VlSwR1sLSsSieQbBlulPALMgo/edit?usp=sharing">successful
+									AWS grant 2</a></td>
+						</tr>
+						<tr>
+							<td>September 10</td>
+							<td>no jovo. supervised rerf team presents.</td>
+							<td><a href="https://blog.neurodata.io/2018/09/08/figures.html">Notes on Making Figures</a>
+							</td>
+						</tr>
+						<tr>
+							<td>September 12</td>
+							<td>HBN visualization due </br>mgcpy + graphstats present </td>
+							<td><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/widm.8">Classification and
+									Regression Trees</a></td>
+						</tr>
+						<tr>
+							<td>September 14</td>
+							<td>AWS Draft proposal due <a
+									href="https://drive.google.com/drive/folders/1MuW-X1rhzGilfccZGhAgIPwiwbt9XVh3?usp=sharing">here</a></br>the
+								ents + supervised rerf present</td>
+							<td><a
+									href="https://github.com/coreinfrastructure/best-practices-badge/blob/master/doc/criteria.md">Best
+									practices for open source software</a></td>
+						</tr>
+						<tr>
+							<td>September 17</td>
+							<td>Class in Clark 318 (Kavli NDI room)</td>
+							<td><a
+									href="https://docs.google.com/presentation/d/1c2fJlhtrHuYfH9GWdjGp_6CwDlhUzQZ4zyOAbT0zWaw/edit?usp=sharing">slides
+									for this week</a></td>
+						</tr>
+						<tr>
+							<td>September 19</td>
+							<td>no jovo. office hours with vikram in Clark 318</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>September 21</td>
+							<td>All teams present</br></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>September 24</td>
+							<td>no jovo. office hours with vikram in clark 318</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>September 26</td>
+							<td>the ents and groot present</br>ReRF developers present</td>
+							<td><a
+									href="https://docs.google.com/presentation/d/1R28VHE6UCQhFfx-z9ZaXu5PE4wK5rOsGEz1y4f3wk_A/edit?usp=sharing">slides
+									for this week</a></td>
+						</tr>
+						<tr>
+							<td>September 28</td>
+							<td>mgcpy and graspy present</br>Sprint 0 Due</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>October 1</td>
+							<td>mgcpy presents; jovo talks about trees</td>
+							<td><a
+									href="https://docs.google.com/presentation/d/1DjL_1c04UQ19TcYJ7m78ubE_0GINelsh2en6IKaoD5Q/edit?usp=sharing">slides
+									for this week</a></td>
+						</tr>
+						<tr>
+							<td>October 3</td>
+							<td>the ents and groot present</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>October 5</td>
+							<td>feedback to each team</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>October 8</td>
+							<td>mgcpy and graspy present</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>October 10</td>
+							<td>the ents present</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>October 12</td>
+							<td>feedback to each team</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>October 15</td>
+							<td>mgcpy and graspy present</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>October 17</td>
+							<td>the ents and groot present</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>October 19</td>
+							<td>feedback to each team</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>October 22</td>
+							<td>mgcpy and graspy present</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>October 24</td>
+							<td>groot feedback; ents present</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>October 26</td>
+							<td>ents feedback; mgcpy presents</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>October 29</td>
+							<td>mgcpy feedback; graspy presents</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>October 31</td>
+							<td>groot feedback; ents present</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>November 2</td>
+							<td>no class</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>November 5</td>
+							<td>no class</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>November 7</td>
+							<td>no class</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>November 9</td>
+							<td>no class</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>November 12</td>
+							<td>mgcpy feedback; graspy presents</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>November 14</td>
+							<td>groot feedback; ents present</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>November 16</td>
+							<td>ents feedback; mgcpy presents</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>November 19</td>
+							<td>mgcpy feedback; graspy presents</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>November 21</td>
+							<td>groot feedback; ents present</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>November 23</td>
+							<td>ents feedback; mgcpy presents</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>November 26</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>November 28</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>November 30</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>December 3</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>December 5</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>December 7</td>
+							<td></td>
+							<td>Last class day</td>
+						</tr>
+						<tr>
+							<td>December 14</td>
+							<td>Final 9 - 12</td>
+							<td>food provided</td>
+						</tr>
+					</table>
+				</div>
+			</section> -->
+
+			<section id="projects">
+				<div class="container">
+					<h2>2018-2019 Projects</h2>
+					<ul>
+						<li><a href="https://github.com/NeuroDataDesign/mgcpy">mgcpy</a>
+						<li><a href="https://github.com/neurodata/pygraphstats">graspy</a>
+						<li><a href="https://github.com/NeuroDataDesign/R-RerF">groot</a>
+						<li><a href="https://github.com/NeuroDataDesign/py-U-Rerf">the ents</a>
+					</ul>
+				</div>
+			</section>
+
+			<!-- Footer -->
 			<section id="footer">
 				<div class="container">
 					<ul class="copyright">
-						<li>&copy; Neurodata 2018. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Neurodata 2018. All rights reserved.</li>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</section>
 
-			</div>
+		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollzer.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
 
-	</body>
+</body>
+
 </html>
